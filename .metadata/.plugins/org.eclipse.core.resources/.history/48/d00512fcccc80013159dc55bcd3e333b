@@ -1,0 +1,26 @@
+package edu.neumont.csc380.hello.service;
+
+import org.springframework.stereotype.Service;
+
+@Service("helloWorldService")
+public class HelloWorldServiceImpl implements IAuthService {
+	//Take in file that contains fake user credentials
+	//
+	public String sayHello(String name) {
+		return "Howdy, " + name + "!";
+	}
+
+	public String authorizeUser(String name) {
+		return "Authroizing, " + name + "!";
+	}
+
+	public String updatePassword(String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String retrieveAuthentication(String userName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

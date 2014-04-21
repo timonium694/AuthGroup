@@ -1,0 +1,12 @@
+package edu.neumont.csc380.hello.service;
+
+import java.util.ArrayList;
+
+public class UserFactory {
+
+	public ArrayList<User> getUsers()
+	{
+		ArrayList<User> users = new ArrayList<User>();
+		return null;
+	}
+}

@@ -1,0 +1,54 @@
+package edu.neumont.csc380.hello.service;
+
+import java.io.IOException;
+
+import org.codehaus.jackson.JsonGenerationException;
+import org.codehaus.jackson.map.JsonMappingException;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.map.ObjectWriter;
+import org.springframework.stereotype.Service;
+
+@Service("helloWorldService")
+public class HelloWorldServiceImpl implements IAuthService {
+
+	public String authorizeUser() {
+		
+		return null;
+	}
+
+	public String updateUserPassword() {
+		UserFactory uf = new UserFactory();
+		uf.updateUserPass(0, "theNewPass");
+		return null;
+	}
+
+	public String deleteUser() {
+		UserFactory uf = new UserFactory();
+		uf.deleteUser(0);
+		return null;
+	}
+	public String retrieveUser()
+	{
+		UserFactory uf = new UserFactory();
+		uf.retrieveUser(0);
+		return null;
+	}
+
+	public String createUser()
+	{
+		try
+		{
+		
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	
+
+	
+	
+
+}

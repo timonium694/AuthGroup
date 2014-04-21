@@ -1,0 +1,16 @@
+package edu.neumont.csc380.hello.service;
+
+import java.util.ArrayList;
+
+import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.type.TypeReference;
+
+public class UserFactory {
+
+	public ArrayList<User> getUsers()
+	{
+		ArrayList<User> users = new ArrayList<User>();
+		ObjectMapper mapper = new ObjectMapper();
+		return null;
+	}
+}

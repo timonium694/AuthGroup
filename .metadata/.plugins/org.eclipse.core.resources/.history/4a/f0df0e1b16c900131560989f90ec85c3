@@ -1,0 +1,41 @@
+package edu.neumont.csc380.hello.service;
+
+import org.springframework.stereotype.Service;
+
+@Service("helloWorldService")
+public class HelloWorldServiceImpl implements IAuthService {
+
+	public String authorizeUser() {
+		
+		return null;
+	}
+
+	public String updateUserPassword() {
+		UserFactory uf = new UserFactory();
+		uf.updateUserPass(0, "theNewPass");
+		return null;
+	}
+
+	public String deleteUser() {
+		UserFactory uf = new UserFactory();
+		uf.deleteUser(0);
+		return null;
+	}
+
+	public String createUser() {
+		User u = new User();
+		u.setAuthLevel("Admin");
+		u.setId(0);
+		u.setPassword("password");
+		u.setUsername("newUser");
+		UserFactory uf = new UserFactory();
+		uf.createNewUser(u);
+		return null;
+	}
+
+	
+
+	
+	
+
+}

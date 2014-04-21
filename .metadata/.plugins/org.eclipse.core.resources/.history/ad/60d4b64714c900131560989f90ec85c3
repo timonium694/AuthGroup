@@ -1,0 +1,29 @@
+package edu.neumont.csc380.hello.service;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.SecurityContext;
+
+@Path("/auth")
+public interface IAuthService {
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	String authorizeUser();
+	
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	String updateUserPassword();
+	
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	String authenticateUser();
+	
+	@POST
+	@Produces("application/json")
+	@Consumes("application/json")
+	String createUser();
+	
+}
