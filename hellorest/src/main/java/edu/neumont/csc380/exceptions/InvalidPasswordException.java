@@ -1,10 +1,10 @@
 package edu.neumont.csc380.exceptions;
 
-public class InvalidPassword extends Exception {
+public class InvalidPasswordException extends Exception {
 
 	static String message = "The password sent was invalid.";
 	
-	public InvalidPassword() {
+	public InvalidPasswordException() {
 		super(message);
 	}
 	

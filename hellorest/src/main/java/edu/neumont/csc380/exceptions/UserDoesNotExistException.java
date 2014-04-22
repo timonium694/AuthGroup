@@ -1,10 +1,10 @@
 package edu.neumont.csc380.exceptions;
 
-public class UserDoesNotExist extends Exception {
+public class UserDoesNotExistException extends Exception {
 	
 	static String message = "The user that is being reqeusted doesn't exists";
 	
-	public UserDoesNotExist() {
+	public UserDoesNotExistException() {
 		super(message);
 	}
 	
