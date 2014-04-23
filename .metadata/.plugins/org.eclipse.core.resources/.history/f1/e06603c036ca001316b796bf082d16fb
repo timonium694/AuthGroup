@@ -1,0 +1,20 @@
+package edu.neumont.csc380.auth.client;
+
+import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+import edu.neumont.csc380.hello.service.User;
+
+
+public class AuthClientImpl{
+	public static void main(String[] args)
+	{
+		System.out.println(createUser(new AuthCredentialsV1("Tim", "isGay", "Me")));
+	}
+	
+	public static User createUser(AuthCredentialsV1 streetCred)
+	{
+		System.out.println("before the call");
+		return JAXRSClientFactory.create("http://localhost:8080/hellorest-server/rest/auth/create",User.class);
+	}
+}

@@ -1,0 +1,14 @@
+package edu.neumont.csc380.auth.client;
+
+import org.apache.cxf.jaxrs.client.Client;
+import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+
+import edu.neumont.csc380.hello.service.AuthTokenV1;
+
+
+public class AuthClientImpl{
+	public AuthTokenV1 logIn(String username,String password)
+	{
+		return JAXRSClientFactory.create("",AuthTokenV1.class);
+	}
+}

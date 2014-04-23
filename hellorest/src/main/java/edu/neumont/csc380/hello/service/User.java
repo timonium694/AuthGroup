@@ -2,11 +2,26 @@ package edu.neumont.csc380.hello.service;
 
 import java.io.Serializable;
 
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
 public class User implements Serializable {
 	private int id;
 	private String username;
 	private String password;
 	private String authLevel;
+	
+	public User()
+	{
+		
+	}
+	
+	public User(int id, String username, String password, String authLevel) {
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.authLevel = authLevel;
+	}
+	
 	public int getId() {
 		return id;
 	}

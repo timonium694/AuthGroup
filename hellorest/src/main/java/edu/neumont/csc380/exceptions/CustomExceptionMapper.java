@@ -24,7 +24,7 @@ public class CustomExceptionMapper implements ExceptionMapper<Throwable> {
 			return Response.status(responseMap.get(arg0)).build();
 		}
 		else{
-			return Response.status(Response.Status.BAD_REQUEST).build();
+			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
 		}
 	}
 

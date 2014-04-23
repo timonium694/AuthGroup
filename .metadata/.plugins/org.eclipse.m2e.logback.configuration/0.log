@@ -599,3 +599,667 @@
 2014-04-21 09:37:07,952 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2014-04-21 09:37:07,954 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2014-04-21 09:37:07,957 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tim\AuthGroup\hellorest\src\test\resources
+2014-04-21 09:55:07,097 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-21 09:55:09,714 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:55:09,721 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 09:55:09,759 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:55:09,762 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 09:55:11,168 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:55:11,176 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 09:55:11,180 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:55:11,184 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 09:59:14,968 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-21 09:59:15,043 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-21 09:59:15,345 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-21 09:59:15,345 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-21 09:59:15,346 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-21 09:59:15,696 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-21 09:59:15,702 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-21 09:59:16,017 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-21 09:59:16,348 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:59:16,351 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 09:59:16,353 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 09:59:16,358 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 10:07:27,320 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:07:27,323 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 10:07:27,325 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:07:27,329 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 10:31:26,869 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:31:26,874 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 10:31:26,878 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:31:26,881 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 10:32:19,087 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:32:19,090 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 10:32:19,092 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:32:19,096 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 10:34:05,559 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:34:05,563 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 10:34:05,566 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:34:05,571 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-21 10:37:26,148 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:37:26,152 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-21 10:37:26,154 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-21 10:37:26,159 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:09:13,219 [Worker-121] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 09:09:14,769 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:09:14,785 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:09:14,794 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:09:14,801 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:13:07,377 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:13:07,386 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:13:07,400 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:13:07,413 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:14:13,430 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:14:13,442 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:14:13,456 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:14:13,473 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:15:01,697 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:15:01,706 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:15:01,718 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:15:01,732 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:26:56,375 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:26:56,384 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:26:56,396 [Worker-131] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:26:56,408 [Worker-131] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:26:57,889 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:26:57,899 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:26:57,912 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:26:57,924 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:37:00,976 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:00,985 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:37:00,995 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:01,008 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:37:54,924 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:54,933 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:37:54,946 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:54,958 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:37:56,181 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:56,190 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:37:56,200 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:37:56,213 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:40:49,047 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:40:49,056 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:40:49,066 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:40:49,079 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:43:10,090 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:43:10,100 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:43:10,112 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:43:10,125 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 09:57:05,154 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:57:05,158 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 09:57:05,161 [Worker-159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 09:57:05,166 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:11:13,147 [Worker-166] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-22 10:11:13,222 [Worker-166] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:11:13,500 [Worker-166] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-22 10:11:13,502 [Worker-166] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-22 10:11:13,505 [Worker-166] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-22 10:11:13,732 [Worker-166] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-22 10:11:13,739 [Worker-166] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-22 10:11:14,027 [Worker-172] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:11:14,255 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:11:14,258 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:11:14,263 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:11:14,265 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:12:51,436 [Worker-173] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:12:52,010 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:52,197 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.0/cxf-rt-rs-extension-providers-2.6.0.pom
+2014-04-22 10:12:52,204 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.0/cxf-rt-rs-extension-providers-2.6.0.pom
+2014-04-22 10:12:52,264 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:52,370 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-parent/2.6.0/cxf-parent-2.6.0.pom
+2014-04-22 10:12:52,573 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-parent/2.6.0/cxf-parent-2.6.0.pom
+2014-04-22 10:12:52,664 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:52,733 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf/2.6.0/cxf-2.6.0.pom
+2014-04-22 10:12:52,801 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf/2.6.0/cxf-2.6.0.pom
+2014-04-22 10:12:52,868 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:52,929 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-api/2.6.0/cxf-api-2.6.0.pom
+2014-04-22 10:12:52,960 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-api/2.6.0/cxf-api-2.6.0.pom
+2014-04-22 10:12:53,015 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,079 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.1.2/woodstox-core-asl-4.1.2.pom
+2014-04-22 10:12:53,082 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.1.2/woodstox-core-asl-4.1.2.pom
+2014-04-22 10:12:53,130 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,193 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.0.2/xmlschema-core-2.0.2.pom
+2014-04-22 10:12:53,197 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.0.2/xmlschema-core-2.0.2.pom
+2014-04-22 10:12:53,239 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,303 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema/2.0.2/xmlschema-2.0.2.pom
+2014-04-22 10:12:53,338 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema/2.0.2/xmlschema-2.0.2.pom
+2014-04-22 10:12:53,407 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,466 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.pom
+2014-04-22 10:12:53,468 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.pom
+2014-04-22 10:12:53,511 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,577 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-core/2.6.0/cxf-rt-core-2.6.0.pom
+2014-04-22 10:12:53,580 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-core/2.6.0/cxf-rt-core-2.6.0.pom
+2014-04-22 10:12:53,628 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,692 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.5/jaxb-impl-2.2.5.pom
+2014-04-22 10:12:53,696 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.5/jaxb-impl-2.2.5.pom
+2014-04-22 10:12:53,738 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,798 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxrs/2.6.0/cxf-rt-frontend-jaxrs-2.6.0.pom
+2014-04-22 10:12:53,801 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxrs/2.6.0/cxf-rt-frontend-jaxrs-2.6.0.pom
+2014-04-22 10:12:53,883 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:53,951 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/2.6.0/cxf-rt-bindings-xml-2.6.0.pom
+2014-04-22 10:12:53,953 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-bindings-xml/2.6.0/cxf-rt-bindings-xml-2.6.0.pom
+2014-04-22 10:12:53,998 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:54,061 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-transports-http/2.6.0/cxf-rt-transports-http-2.6.0.pom
+2014-04-22 10:12:54,064 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-transports-http/2.6.0/cxf-rt-transports-http-2.6.0.pom
+2014-04-22 10:12:54,173 [Worker-173] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:12:54,237 [New I/O client worker #14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.0.2/xmlschema-core-2.0.2.jar
+2014-04-22 10:12:54,246 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.0/cxf-rt-rs-extension-providers-2.6.0.jar
+2014-04-22 10:12:54,256 [New I/O client worker #14-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar
+2014-04-22 10:12:54,257 [New I/O client worker #14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-api/2.6.0/cxf-api-2.6.0.jar
+2014-04-22 10:12:54,257 [New I/O client worker #14-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.5/jaxb-impl-2.2.5.jar
+2014-04-22 10:12:54,258 [New I/O client worker #14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.1.2/woodstox-core-asl-4.1.2.jar
+2014-04-22 10:12:54,291 [New I/O client worker #14-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-core/2.6.0/cxf-rt-core-2.6.0.jar
+2014-04-22 10:12:54,380 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.0/cxf-rt-rs-extension-providers-2.6.0.jar
+2014-04-22 10:12:54,566 [New I/O client worker #14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/ws/xmlschema/xmlschema-core/2.0.2/xmlschema-core-2.0.2.jar
+2014-04-22 10:12:54,630 [New I/O client worker #14-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar
+2014-04-22 10:12:54,873 [New I/O client worker #14-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-core/2.6.0/cxf-rt-core-2.6.0.jar
+2014-04-22 10:12:55,466 [New I/O client worker #14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.1.2/woodstox-core-asl-4.1.2.jar
+2014-04-22 10:12:55,866 [New I/O client worker #14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-api/2.6.0/cxf-api-2.6.0.jar
+2014-04-22 10:12:56,956 [New I/O client worker #14-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.5/jaxb-impl-2.2.5.jar
+2014-04-22 10:12:57,733 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:12:57,735 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-22 10:12:57,737 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:12:57,741 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:12:57,741 [Worker-173] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-22 10:12:57,744 [Worker-173] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-22 10:12:57,773 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:12:59,021 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:12:59,033 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:12:59,037 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:12:59,039 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:12:59,431 [Worker-175] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-22 10:12:59,483 [Worker-175] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:12:59,791 [Worker-175] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-22 10:12:59,791 [Worker-175] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-22 10:12:59,793 [Worker-175] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-22 10:13:00,016 [Worker-175] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-22 10:13:00,024 [Worker-175] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-22 10:13:00,306 [Worker-176] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:13:00,587 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:13:00,590 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:13:00,594 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:13:00,596 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:13:23,337 [Worker-174] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-22 10:13:23,390 [Worker-174] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:13:23,678 [Worker-174] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-22 10:13:23,678 [Worker-174] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-22 10:13:23,681 [Worker-174] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-22 10:13:23,928 [Worker-174] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-22 10:13:23,935 [Worker-174] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-22 10:13:24,174 [Worker-173] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:13:24,477 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:13:24,480 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:13:24,484 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:13:24,486 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:15:12,110 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:15:12,114 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:15:12,115 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:15:12,118 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:17:25,645 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:17:25,650 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:17:25,654 [Worker-178] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:17:25,656 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:17:55,832 [Worker-179] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:17:56,103 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxrs/2.6.9/cxf-rt-frontend-jaxrs-2.6.9-sources.jar
+2014-04-22 10:17:56,754 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-jaxrs/2.6.9/cxf-rt-frontend-jaxrs-2.6.9-sources.jar
+2014-04-22 10:17:56,904 [Worker-179] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.cxf:cxf-rt-frontend-jaxrs:2.6.9
+2014-04-22 10:17:57,117 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:17:57,121 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-22 10:17:57,124 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:17:57,126 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:26:36,257 [Worker-133] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:26:36,259 [Worker-133] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:26:36,353 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.9/cxf-rt-rs-extension-providers-2.6.9.pom
+2014-04-22 10:26:36,359 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.9/cxf-rt-rs-extension-providers-2.6.9.pom
+2014-04-22 10:26:36,524 [Worker-133] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-22 10:26:36,597 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.9/cxf-rt-rs-extension-providers-2.6.9.jar
+2014-04-22 10:26:36,730 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-rs-extension-providers/2.6.9/cxf-rt-rs-extension-providers-2.6.9.jar
+2014-04-22 10:26:36,948 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:26:36,952 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-22 10:26:36,953 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:26:36,957 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:26:36,957 [Worker-133] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-22 10:26:36,959 [Worker-133] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-22 10:26:36,966 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:26:38,153 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:26:38,156 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:26:38,161 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:26:38,163 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:28:27,800 [Worker-177] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-22 10:28:28,034 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:28:28,038 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:28:28,042 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:28:28,045 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:29:19,841 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:29:19,846 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-22 10:29:19,849 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:29:19,853 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:30:12,349 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:30:12,354 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:30:12,357 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:30:12,362 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:38:28,365 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:28,370 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:38:28,374 [Worker-201] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:28,377 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:38:29,450 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:29,455 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:38:29,458 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:29,462 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:38:55,784 [Worker-204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:55,789 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:38:55,792 [Worker-204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:38:55,797 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:41:23,244 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:41:23,252 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:41:23,258 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:41:23,263 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:44:07,856 [Worker-205] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:44:07,861 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:44:07,864 [Worker-205] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:44:07,868 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:44:11,332 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:44:11,337 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:44:11,340 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:44:11,344 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:49:13,481 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:49:13,485 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:49:13,489 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:49:13,492 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 10:53:41,618 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:53:41,622 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 10:53:41,625 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 10:53:41,629 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:00:37,402 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:00:37,417 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:00:37,429 [Worker-217] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:00:37,443 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:02:13,237 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:13,250 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:02:13,260 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:13,272 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:02:26,192 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:26,206 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:02:26,215 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:26,227 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:02:50,952 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:50,967 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:02:50,976 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:02:50,988 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:04:53,102 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:04:53,116 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:04:53,126 [Worker-212] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:04:53,138 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:05:08,493 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:05:08,507 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:05:08,516 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:05:08,526 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:06:41,662 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:06:41,677 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:06:41,687 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:06:41,701 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:10:08,211 [Worker-240] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:10:08,225 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:10:08,234 [Worker-240] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:10:08,246 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:10:40,446 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:10:40,461 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:10:40,470 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:10:40,482 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:16:00,536 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:16:00,554 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:16:00,565 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:16:00,579 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-22 11:17:16,655 [Worker-228] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:17:16,670 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-22 11:17:16,681 [Worker-228] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-22 11:17:16,695 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:04:46,388 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:04:46,405 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:04:46,415 [Worker-300] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:04:46,428 [Worker-300] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:08:54,014 [Worker-302] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:08:54,031 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:08:54,042 [Worker-302] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:08:54,055 [Worker-302] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:08:55,448 [Worker-311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:08:55,464 [Worker-311] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:08:55,476 [Worker-311] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:08:55,491 [Worker-311] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:09:57,964 [Worker-303] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:09:57,983 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:09:57,995 [Worker-303] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:09:58,013 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:15:38,597 [Worker-315] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:15:38,949 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:15:38,954 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:15:38,958 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:15:38,961 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:15:38,964 [Worker-315] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:15:38,964 [Worker-315] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:15:39,560 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:15:40,760 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:15:40,765 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:15:40,769 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:15:40,773 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:16:08,692 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:08,697 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:16:08,700 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:08,704 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:16:40,154 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:40,158 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:16:40,162 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:40,166 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:16:47,159 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:47,164 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:16:47,167 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:47,171 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:16:49,386 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:49,392 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:16:49,395 [Worker-318] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:49,399 [Worker-318] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:16:53,241 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:53,246 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:16:53,249 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:16:53,253 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:17:07,781 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:07,786 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:17:07,790 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:07,793 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:17:22,583 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:22,589 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:17:22,594 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:22,600 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:17:35,807 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:35,813 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:17:35,816 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:17:35,820 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:18:15,075 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:18:15,079 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:18:15,082 [Worker-315] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:18:15,086 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:18:25,273 [Worker-320] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-23 10:18:25,330 [Worker-320] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:18:25,519 [Worker-320] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-23 10:18:25,521 [Worker-320] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-23 10:18:25,521 [Worker-320] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-23 10:18:25,877 [Worker-320] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-23 10:18:25,883 [Worker-320] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-23 10:18:26,571 [Worker-313] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:18:26,760 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:18:26,765 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:18:26,770 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:18:26,774 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:24:01,734 [Worker-330] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:24:01,935 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:01,939 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:24:01,942 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:01,944 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:24:01,946 [Worker-330] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:24:01,946 [Worker-330] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:24:01,949 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:03,197 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:03,202 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:24:03,208 [Worker-330] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:03,213 [Worker-330] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:24:16,465 [Worker-333] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-23 10:24:16,520 [Worker-333] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:24:16,697 [Worker-333] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-23 10:24:16,699 [Worker-333] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-23 10:24:16,700 [Worker-333] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-23 10:24:16,894 [Worker-333] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-23 10:24:16,900 [Worker-333] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-23 10:24:17,177 [Worker-328] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:24:17,363 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:17,367 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:24:17,370 [Worker-328] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:24:17,372 [Worker-328] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:26:04,794 [Worker-332] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:26:05,000 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:26:05,005 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:26:05,008 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:26:05,010 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:26:05,012 [Worker-332] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:26:05,012 [Worker-332] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:26:05,015 [Worker-332] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:26:06,257 [Worker-336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:26:06,262 [Worker-336] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:26:06,266 [Worker-336] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:26:06,270 [Worker-336] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:32:15,318 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:32:15,324 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:32:15,329 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:32:15,334 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:32:25,332 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:32:25,337 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:32:25,341 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:32:25,346 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:38:08,937 [Worker-343] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:38:08,940 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,103 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.9/cxf-bundle-jaxrs-2.6.9.pom
+2014-04-23 10:38:09,117 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.9/cxf-bundle-jaxrs-2.6.9.pom
+2014-04-23 10:38:09,195 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,278 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-parent/2.6.9/cxf-bundle-parent-2.6.9.pom
+2014-04-23 10:38:09,281 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-parent/2.6.9/cxf-bundle-parent-2.6.9.pom
+2014-04-23 10:38:09,376 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,455 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom
+2014-04-23 10:38:09,459 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.pom
+2014-04-23 10:38:09,510 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,606 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.3/specs-1.3.pom
+2014-04-23 10:38:09,608 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.3/specs-1.3.pom
+2014-04-23 10:38:09,665 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,750 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.1/project-config-1.1.pom
+2014-04-23 10:38:09,800 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.1/project-config-1.1.pom
+2014-04-23 10:38:09,890 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:09,975 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.1/config-1.1.pom
+2014-04-23 10:38:09,976 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.1/config-1.1.pom
+2014-04-23 10:38:10,031 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:10,187 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.pom
+2014-04-23 10:38:10,191 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.1/genesis-1.1.pom
+2014-04-23 10:38:10,250 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:10,341 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.5/jaxb-api-2.2.5.pom
+2014-04-23 10:38:10,343 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.5/jaxb-api-2.2.5.pom
+2014-04-23 10:38:10,401 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:10,500 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.pom
+2014-04-23 10:38:10,502 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.pom
+2014-04-23 10:38:10,559 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:10,672 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.pom
+2014-04-23 10:38:10,674 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.pom
+2014-04-23 10:38:10,725 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:10,808 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+2014-04-23 10:38:10,856 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/specs/1.4/specs-1.4.pom
+2014-04-23 10:38:10,933 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,019 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+2014-04-23 10:38:11,066 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/project-config/1.2/project-config-1.2.pom
+2014-04-23 10:38:11,138 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,244 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2014-04-23 10:38:11,246 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/config/config/1.2/config-1.2.pom
+2014-04-23 10:38:11,305 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,445 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+2014-04-23 10:38:11,451 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/genesis/genesis/1.2/genesis-1.2.pom
+2014-04-23 10:38:11,533 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,618 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.5.4.v20111024/jetty-server-7.5.4.v20111024.pom
+2014-04-23 10:38:11,622 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.5.4.v20111024/jetty-server-7.5.4.v20111024.pom
+2014-04-23 10:38:11,674 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,762 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.5.4.v20111024/jetty-project-7.5.4.v20111024.pom
+2014-04-23 10:38:11,810 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/7.5.4.v20111024/jetty-project-7.5.4.v20111024.pom
+2014-04-23 10:38:11,867 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:11,954 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/19/jetty-parent-19.pom
+2014-04-23 10:38:11,997 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/19/jetty-parent-19.pom
+2014-04-23 10:38:12,053 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,142 [New I/O client worker #35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024.pom
+2014-04-23 10:38:12,144 [New I/O client worker #35-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024.pom
+2014-04-23 10:38:12,202 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,286 [New I/O client worker #36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024.pom
+2014-04-23 10:38:12,289 [New I/O client worker #36-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024.pom
+2014-04-23 10:38:12,345 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,425 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024.pom
+2014-04-23 10:38:12,427 [New I/O client worker #37-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024.pom
+2014-04-23 10:38:12,482 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,568 [New I/O client worker #38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024.pom
+2014-04-23 10:38:12,570 [New I/O client worker #38-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024.pom
+2014-04-23 10:38:12,640 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,750 [New I/O client worker #39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024.pom
+2014-04-23 10:38:12,752 [New I/O client worker #39-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024.pom
+2014-04-23 10:38:12,809 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:12,896 [New I/O client worker #40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2014-04-23 10:38:12,899 [New I/O client worker #40-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2014-04-23 10:38:12,966 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:13,058 [New I/O client worker #41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2014-04-23 10:38:13,060 [New I/O client worker #41-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+2014-04-23 10:38:13,114 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:13,200 [New I/O client worker #42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2014-04-23 10:38:13,207 [New I/O client worker #42-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+2014-04-23 10:38:13,263 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:13,356 [New I/O client worker #43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2.pom
+2014-04-23 10:38:13,358 [New I/O client worker #43-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2.pom
+2014-04-23 10:38:13,465 [Worker-343] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:38:13,563 [New I/O client worker #44-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar
+2014-04-23 10:38:13,562 [New I/O client worker #44-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024.jar
+2014-04-23 10:38:13,589 [New I/O client worker #44-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.5/jaxb-api-2.2.5.jar
+2014-04-23 10:38:13,589 [New I/O client worker #44-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar
+2014-04-23 10:38:13,590 [New I/O client worker #44-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.5.4.v20111024/jetty-server-7.5.4.v20111024.jar
+2014-04-23 10:38:13,590 [New I/O client worker #44-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024.jar
+2014-04-23 10:38:13,590 [New I/O client worker #44-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.jar
+2014-04-23 10:38:13,593 [New I/O client worker #44-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024.jar
+2014-04-23 10:38:13,593 [New I/O client worker #44-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024.jar
+2014-04-23 10:38:13,593 [New I/O client worker #44-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024.jar
+2014-04-23 10:38:13,598 [New I/O client worker #44-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2.jar
+2014-04-23 10:38:13,598 [New I/O client worker #44-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2014-04-23 10:38:13,606 [New I/O client worker #44-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar
+2014-04-23 10:38:13,718 [New I/O client worker #44-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+2014-04-23 10:38:13,727 [New I/O client worker #44-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar
+2014-04-23 10:38:13,758 [New I/O client worker #44-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/7.5.4.v20111024/jetty-continuation-7.5.4.v20111024.jar
+2014-04-23 10:38:13,831 [New I/O client worker #44-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-activation_1.1_spec/1.1/geronimo-activation_1.1_spec-1.1.jar
+2014-04-23 10:38:13,929 [New I/O client worker #44-13] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/geronimo/specs/geronimo-servlet_2.5_spec/1.1.2/geronimo-servlet_2.5_spec-1.1.2.jar
+2014-04-23 10:38:13,953 [New I/O client worker #44-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/7.5.4.v20111024/jetty-io-7.5.4.v20111024.jar
+2014-04-23 10:38:13,977 [New I/O client worker #44-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/7.5.4.v20111024/jetty-security-7.5.4.v20111024.jar
+2014-04-23 10:38:14,007 [New I/O client worker #44-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.5/jaxb-api-2.2.5.jar
+2014-04-23 10:38:14,085 [New I/O client worker #44-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.9/cxf-bundle-jaxrs-2.6.9.jar
+2014-04-23 10:38:14,236 [New I/O client worker #44-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024.jar
+2014-04-23 10:38:14,475 [New I/O client worker #44-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/7.5.4.v20111024/jetty-util-7.5.4.v20111024.jar
+2014-04-23 10:38:14,641 [New I/O client worker #44-6] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/7.5.4.v20111024/jetty-server-7.5.4.v20111024.jar
+2014-04-23 10:38:26,746 [New I/O client worker #44-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.9/cxf-bundle-jaxrs-2.6.9.jar
+2014-04-23 10:38:27,725 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:27,727 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:38:27,728 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:27,733 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:38:27,733 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:38:27,733 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:38:27,735 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:29,046 [Worker-355] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:29,050 [Worker-355] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:38:29,052 [Worker-355] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:29,055 [Worker-355] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:38:40,266 [Worker-354] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-04-23 10:38:40,317 [Worker-354] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:38:40,638 [Worker-354] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/main/java
+2014-04-23 10:38:40,640 [Worker-354] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hellorest/src/main/resources
+2014-04-23 10:38:40,642 [Worker-354] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hellorest/src/test/java
+2014-04-23 10:38:40,858 [Worker-354] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for hellorest
+2014-04-23 10:38:40,866 [Worker-354] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-04-23 10:38:41,128 [Worker-350] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:38:41,469 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:41,471 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:38:41,475 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:38:41,477 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:39:38,652 [Worker-356] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:39:38,653 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:38,914 [New I/O client worker #45-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.0/cxf-bundle-jaxrs-2.6.0.pom
+2014-04-23 10:39:38,917 [New I/O client worker #45-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.0/cxf-bundle-jaxrs-2.6.0.pom
+2014-04-23 10:39:38,991 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:39,094 [New I/O client worker #46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-parent/2.6.0/cxf-bundle-parent-2.6.0.pom
+2014-04-23 10:39:39,101 [New I/O client worker #46-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-parent/2.6.0/cxf-bundle-parent-2.6.0.pom
+2014-04-23 10:39:39,212 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:39,298 [New I/O client worker #47-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.6/jaxb-api-2.2.6.pom
+2014-04-23 10:39:39,300 [New I/O client worker #47-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.6/jaxb-api-2.2.6.pom
+2014-04-23 10:39:39,395 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:39,474 [New I/O client worker #48-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom
+2014-04-23 10:39:39,479 [New I/O client worker #48-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom
+2014-04-23 10:39:39,530 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:39,610 [New I/O client worker #49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.2/slf4j-parent-1.6.2.pom
+2014-04-23 10:39:39,614 [New I/O client worker #49-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.6.2/slf4j-parent-1.6.2.pom
+2014-04-23 10:39:39,740 [Worker-356] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:39:39,834 [New I/O client worker #50-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar
+2014-04-23 10:39:39,836 [New I/O client worker #50-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.6/jaxb-api-2.2.6.jar
+2014-04-23 10:39:39,916 [New I/O client worker #50-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.jar
+2014-04-23 10:39:39,919 [New I/O client worker #50-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.0/cxf-bundle-jaxrs-2.6.0.jar
+2014-04-23 10:39:40,111 [New I/O client worker #50-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.2.6/jaxb-api-2.2.6.jar
+2014-04-23 10:39:43,483 [New I/O client worker #50-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cxf/cxf-bundle-jaxrs/2.6.0/cxf-bundle-jaxrs-2.6.0.jar
+2014-04-23 10:39:43,944 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:39:43,948 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:39:43,952 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:39:43,955 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:39:43,955 [Worker-356] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:39:43,957 [Worker-356] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:39:43,960 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:39:45,250 [Worker-358] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:39:45,253 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:39:45,256 [Worker-358] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:39:45,259 [Worker-358] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:40:10,839 [Worker-360] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:40:11,143 [Worker-360] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:40:11,147 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:40:11,148 [Worker-360] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:40:11,152 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:40:11,152 [Worker-360] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:40:11,154 [Worker-360] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:40:11,157 [Worker-360] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:40:12,489 [Worker-347] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:40:12,492 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:40:12,497 [Worker-347] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:40:12,499 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:44:16,073 [Worker-352] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.neumont.csc380:hellorest-server:0.0.1-SNAPSHOT @ C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\pom.xml.
+2014-04-23 10:44:16,077 [Worker-352] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:44:16,205 [New I/O client worker #51-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.4/jettison-1.3.4.pom
+2014-04-23 10:44:16,218 [New I/O client worker #51-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.4/jettison-1.3.4.pom
+2014-04-23 10:44:16,305 [Worker-352] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:44:16,403 [New I/O client worker #52-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+2014-04-23 10:44:16,416 [New I/O client worker #52-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/3/codehaus-parent-3.pom
+2014-04-23 10:44:16,498 [Worker-352] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:44:16,618 [New I/O client worker #53-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.pom
+2014-04-23 10:44:16,623 [New I/O client worker #53-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.pom
+2014-04-23 10:44:17,134 [Worker-352] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-04-23 10:44:17,243 [New I/O client worker #54-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.4/jettison-1.3.4.jar
+2014-04-23 10:44:17,305 [New I/O client worker #54-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar
+2014-04-23 10:44:17,486 [New I/O client worker #54-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/jettison/jettison/1.3.4/jettison-1.3.4.jar
+2014-04-23 10:44:17,504 [New I/O client worker #54-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar
+2014-04-23 10:44:18,667 [Worker-352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:44:18,681 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-04-23 10:44:18,694 [Worker-352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:44:18,706 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:44:18,707 [Worker-352] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of hellorest
+2014-04-23 10:44:18,707 [Worker-352] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for hellorest
+2014-04-23 10:44:18,716 [Worker-352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:44:20,210 [Worker-351] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:44:20,220 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:44:20,227 [Worker-351] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:44:20,234 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:45:59,011 [Worker-351] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:45:59,020 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:45:59,025 [Worker-351] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:45:59,032 [Worker-351] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:46:38,092 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:46:38,101 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:46:38,112 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:46:38,124 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:47:23,971 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:47:23,980 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:47:23,985 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:47:23,992 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:48:19,606 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:48:19,620 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:48:19,632 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:48:19,638 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:51:41,607 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:51:41,611 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:51:41,612 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:51:41,614 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:52:43,013 [Worker-370] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:52:43,018 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:52:43,022 [Worker-370] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:52:43,025 [Worker-370] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-23 10:52:47,550 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:52:47,553 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-04-23 10:52:47,554 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-23 10:52:47,556 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources

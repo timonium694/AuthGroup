@@ -1,0 +1,35 @@
+package edu.neumont.csc380.auth.client;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+import org.apache.cxf.jaxrs.client.WebClient;
+import org.apache.cxf.jaxrs.provider.json.JSONProvider;
+
+import edu.neumont.csc380.auth.interfaces.IAuthService;
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+import edu.neumont.csc380.hello.service.User;
+
+
+public class AuthClientImpl{
+	public static void main(String[] args)
+	{
+		createUser(new AuthCredentialsV1("Tim", "isGay", "Me"));
+	}
+	
+	public static void createUser(AuthCredentialsV1 streetCred)
+	{
+		//client config for a TestApi interface
+//		List providers = new ArrayList();
+//		JSONProvider jsonProvider = new JSONProvider();
+//		Map<String, String> map = new HashMap<String, String> ();
+//		map.put ( "http://localhost:8080/hellorest-server/rest", "auth" );
+//		jsonProvider.setNamespaceMap ( map );
+//		providers.add ( jsonProvider );
+		IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest/auth", IAuthService.class );
+		System.out.println(proxy.createUser().getEntity());
+	}
+}

@@ -1,0 +1,15 @@
+package edu.neumont.csc380.hello.service;
+
+public class AuthTokenV1 
+{
+	private String token;
+	
+	public AuthTokenV1(String token)
+	{
+		this.token = token;
+	}
+
+	public String getToken() {
+		return token;
+	}
+}

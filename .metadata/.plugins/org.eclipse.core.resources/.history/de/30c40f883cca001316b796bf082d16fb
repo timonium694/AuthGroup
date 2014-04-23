@@ -1,0 +1,70 @@
+package edu.neumont.csc380.hello.service;
+import javax.ws.rs.core.Response;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jackson.map.ObjectWriter;
+import org.springframework.stereotype.Service;
+
+import edu.neumont.csc380.auth.interfaces.IAuthService;
+
+@Service("helloWorldService")
+public class AuthServiceImpl implements IAuthService {
+
+	public Response authorizeUser() {
+		return null;
+	}
+
+	public Response updateUserPassword() {
+		UserFactory uf = new UserFactory();
+		uf.updateUserPass(0, "theNewPass");
+		return Response.ok("{\"token\", \"1098as7dfasfdGIOas09fd\" }","application/vnd.neumont.edu-v1+json").build();
+	}
+
+	public Response deleteUser() {
+		UserFactory uf = new UserFactory();
+		uf.deleteUser(0);
+		return Response.ok("{\"token\", \"1098as7dfasfdGIOas09fd\" }","application/vnd.neumont.edu-v1+json").build();
+	}
+	public Response retrieveUser()
+	{
+		try
+		{
+			
+			UserFactory uf = new UserFactory();
+			User u = uf.retrieveUser(0);
+			ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+			return Response.ok(ow.writeValueAsString(u)).build();
+		}
+		catch(Exception ex)
+		{
+			
+		}
+		return Response.ok("Failure to retrieve user","application/vnd.neumont.edu-v1+json").build();
+	}
+
+	public Response createUser()
+	{
+		try
+		{
+			User u = new User();
+			u.setAuthLevel("Admin");
+			u.setId(0);
+			u.setPassword("password");
+			u.setUsername("newUser");
+			UserFactory uf = new UserFactory();
+			uf.createNewUser(u);
+			//ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+			return Response.ok(u,"application/vnd.neumont.edu-v1+json").build();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		return Response.ok("failure to create new user","application/vnd.neumont.edu-v1+json").build();
+	}
+
+	
+
+	
+	
+
+}

@@ -3,26 +3,12 @@ package edu.neumont.csc380.hello.service;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-
 public class UserFactory {
 
 	private static ArrayList<User> users = new ArrayList<User>();
 	private static int currentId = 0;
-	public ArrayList<User> getUsers() throws JsonMappingException, IOException
+	public ArrayList<User> getUsers()
 	{
-//		 ArrayList<User> users = new ArrayList<User>();
-//		 ObjectMapper mapper = new ObjectMapper();
-//		 File dir = new File("src/main/resources");
-//		 File[] directoryListing = dir.listFiles();
-//		 if (directoryListing != null) {
-//		   for (File child : directoryListing) {
-//			   User user = mapper.readValue(new File("src/main/resources/"+child.getName()), User.class);
-//			   users.add(user);
-//		   }
-//		 }
-		
 		return this.users;
 	}
 	public Boolean updateUserPass(int id, String newPass) 
@@ -122,18 +108,7 @@ public class UserFactory {
 	}
 	public User retrieveUser(int id)
 	{
-		ObjectMapper mapper = new ObjectMapper();
-
 		User user = null;
-//		try
-//		{
-//			user = mapper.readValue(new File("src/main/resources/"+id+".json"), User.class);
-//			
-//		}
-//		catch(Exception e)
-//		{
-//			e.printStackTrace();
-//		}
 		for(User u : this.users)
 		{
 			if(u.getId()==id)
