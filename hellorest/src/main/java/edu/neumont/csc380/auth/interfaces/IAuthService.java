@@ -13,26 +13,26 @@ public interface IAuthService {
 	String authorizeUser();
 	
 	@POST
-	@Path("/updatePass")
+	@Path("/updatePass/{id}")
 	@Produces("application/json")
 	@Consumes("application/json")
-	String updateUserPassword();
+	String updateUserPassword(@PathParam("id") int id, String password);
 	
-	@POST
-	@Path("/deleteUser")
+	@DELETE
+	@Path("/deleteUser/{id}")
 	@Produces("application/json")
 	@Consumes("application/json")
-	String deleteUser();
+	String deleteUser(@PathParam("id") int id);
 	
-	@GET
+	@PUT
 	@Path("/create")
 	@Produces("application/json")
 	String createUser();
 	
 	@GET
-	@Path("/retrieve")
+	@Path("/retrieve/{id}")
 	@Produces("application/json")
 	@Consumes("application/json")
-	String retrieveUser();
+	String retrieveUser(@PathParam("id") int id);
 	
 }
