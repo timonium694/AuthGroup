@@ -2,6 +2,10 @@
 1398054442654	Rename resource 'users.txt'
 1398056615850	Rename local variable 'Pass'
 1398094627391	Move compilation unit
+<<<<<<< HEAD
 1398098245961	Rename type 'AuthToken'
 1398179701168	Delete element
 1398181019214	Rename type 'HelloWorldServiceImpl'
+=======
+1398094873074	Delete element
+>>>>>>> 0273deb343a9f7bcb1eeed59742743a4101dd31c

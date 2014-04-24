@@ -1,9 +1,7 @@
 package edu.neumont.csc380.auth.interfaces;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.SecurityContext;
 
 @Path("/auth")
 public interface IAuthService {
@@ -12,27 +10,25 @@ public interface IAuthService {
 	@Produces("application/vnd.neumont.auth.edu-v1+json")
 	@Consumes("application/vnd.neumont.auth.edu-v1+json")
 	public Response authorizeUser();
+
+	@Path("/updatePass/{id}")
+	@Produces("application/json")
+	@Consumes("application/json")
+	String updateUserPassword(@PathParam("id") int id, String password);
 	
-	@POST
-	@Path("/updatePass")
-	@Produces("application/vnd.neumont.auth.edu-v1+json")
-	@Consumes("application/vnd.neumont.auth.edu-v1+json")
-	public Response updateUserPassword();
-	
-	@POST
-	@Path("/deleteUser")
-	@Produces("application/vnd.neumont.auth.edu-v1+json")
-	@Consumes("application/vnd.neumont.auth.edu-v1+json")
-	public Response deleteUser();
+	@DELETE
+	@Path("/deleteUser/{id}")
+	@Produces("application/json")
+	@Consumes("application/json")
+	Response deleteUser(@PathParam("id") int id);
 	
 	@GET
 	@Path("/create")
 	@Produces("application/json")
 	public Response createUser();
 	
-	@GET
-	@Path("/retrieve")
-	@Produces("application/vnd.neumont.auth.edu-v1+json")
-	@Consumes("application/vnd.neumont.auth.edu-v1+json")
-	public Response retrieveUser();
+	@Path("/retrieve/{id}")
+	@Produces("application/json")
+	@Consumes("application/json")
+	String retrieveUser(@PathParam("id") int id);
 }

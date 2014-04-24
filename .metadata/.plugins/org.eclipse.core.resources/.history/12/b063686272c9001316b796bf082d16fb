@@ -11,37 +11,41 @@ import org.springframework.stereotype.Service;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
 
 @Service("helloWorldService")
-public class HelloWorldServiceImpl implements IAuthService {
+public class HelloWorldServiceImpl implements IAuthService
+{
 
-	public String authorizeUser() {
-		
+	public String authorizeUser()
+	{
+
 		return null;
 	}
 
-	public String updateUserPassword() {
+	public String updateUserPassword(int id, String newPass)
+	{
 		UserFactory uf = new UserFactory();
-		uf.updateUserPass(0, "theNewPass");
+		uf.updateUserPass(id, newPass);
 		return "{\"token\", \"1098as7dfasfdGIOas09fd\" }";
 	}
 
-	public String deleteUser() {
+	public String deleteUser(int id)
+	{
 		UserFactory uf = new UserFactory();
-		uf.deleteUser(0);
+		uf.deleteUser(id);
 		return "{\"token\", \"1098as7dfasfdGIOas09fd\" }";
 	}
-	public String retrieveUser()
+
+	public String retrieveUser(int id)
 	{
 		try
 		{
-			
+
 			UserFactory uf = new UserFactory();
-			User u = uf.retrieveUser(0);
+			User u = uf.retrieveUser(id);
 			ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
 			return ow.writeValueAsString(u);
-		}
-		catch(Exception ex)
+		} catch (Exception ex)
 		{
-			
+
 		}
 		return "Failure to retrieve user";
 	}
@@ -52,24 +56,17 @@ public class HelloWorldServiceImpl implements IAuthService {
 		{
 			User u = new User();
 			u.setAuthLevel("Admin");
-			u.setId(0);
 			u.setPassword("password");
 			u.setUsername("newUser");
 			UserFactory uf = new UserFactory();
 			uf.createNewUser(u);
 			ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
 			return ow.writeValueAsString(u);
-		}
-		catch(Exception e)
+		} catch (Exception e)
 		{
 			e.printStackTrace();
 		}
 		return "failure to create new user";
 	}
-
-	
-
-	
-	
 
 }

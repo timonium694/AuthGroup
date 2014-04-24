@@ -24,7 +24,7 @@
 	
     <jaxrs:server id="jaxrsService" address="/">
        <jaxrs:serviceBeans>
-	      <ref bean="helloWorldService"/>
+	      <ref bean="authService"/>
 	   </jaxrs:serviceBeans>
 	   <jaxrs:providers>
 	   	  <ref bean="jsonProvider"/>

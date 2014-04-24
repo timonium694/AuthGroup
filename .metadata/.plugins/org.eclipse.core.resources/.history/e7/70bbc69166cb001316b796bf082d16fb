@@ -1,0 +1,26 @@
+package edu.neumont.csc380.auth.client;
+
+
+import javax.ws.rs.core.Response;
+
+import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+
+import edu.neumont.csc380.auth.interfaces.IAuthService;
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+
+
+public class AuthClientImpl{
+	public static void main(String[] args)
+	{
+		createUser(new AuthCredentialsV1("Tim", "isGay", "Me"));
+	}
+	
+	public static void createUser(AuthCredentialsV1 streetCred)
+	{
+		IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest", IAuthService.class );
+		Response r = proxy.createUser();
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.getEntity());
+	}
+}

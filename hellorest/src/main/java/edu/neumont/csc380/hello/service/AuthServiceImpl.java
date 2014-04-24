@@ -1,10 +1,11 @@
 package edu.neumont.csc380.hello.service;
 import javax.ws.rs.core.Response;
+
 import org.springframework.stereotype.Service;
 
 import edu.neumont.csc380.auth.interfaces.IAuthService;
 
-@Service("helloWorldService")
+@Service("authService")
 public class AuthServiceImpl implements IAuthService {
 
 	public Response authorizeUser() {
@@ -14,13 +15,13 @@ public class AuthServiceImpl implements IAuthService {
 	public Response updateUserPassword() {
 		UserFactory uf = new UserFactory();
 		uf.updateUserPass(0, "theNewPass");
-		return Response.ok("{\"token\", \"1098as7dfasfdGIOas09fd\" }","application/vnd.neumont.edu-v1+json").build();
+		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
 	}
 
-	public Response deleteUser() {
+	public Response deleteUser(int id) {
 		UserFactory uf = new UserFactory();
 		uf.deleteUser(0);
-		return Response.ok("{\"token\", \"1098as7dfasfdGIOas09fd\" }","application/vnd.neumont.edu-v1+json").build();
+		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
 	}
 	public Response retrieveUser()
 	{
@@ -35,7 +36,7 @@ public class AuthServiceImpl implements IAuthService {
 		{
 			
 		}
-		return Response.ok("Failure to retrieve user","application/vnd.neumont.edu-v1+json").build();
+		return Response.ok("Failure to retrieve user").build();
 	}
 
 	public Response createUser()
@@ -57,6 +58,16 @@ public class AuthServiceImpl implements IAuthService {
 			e.printStackTrace();
 		}
 		return Response.ok("failure to create new user").build();
+	}
+	
+	public String updateUserPassword(int id, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String retrieveUser(int id) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	
