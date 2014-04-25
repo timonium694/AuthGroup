@@ -3,6 +3,8 @@ package edu.neumont.csc380.hello.service;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
+
 public class UserFactory {
 
 	private static ArrayList<User> users = new ArrayList<User>();
@@ -78,9 +80,9 @@ public class UserFactory {
 //		}
 		return  created;
 	}
-	public String getAuthenticationLevel(int id)
+	public AuthorityLevel getAuthenticationLevel(int id)
 	{
-		String output = null;
+		AuthorityLevel output = null;
 
 //		ObjectMapper mapper = new ObjectMapper();
 //

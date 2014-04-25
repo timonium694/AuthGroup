@@ -3,19 +3,21 @@ package edu.neumont.csc380.hello.service;
 import java.io.Serializable;
 
 import javax.xml.bind.annotation.XmlRootElement;
+
+import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 @XmlRootElement
 public class User implements Serializable {
 	private int id;
 	private String username;
 	private String password;
-	private String authLevel;
+	private AuthorityLevel authLevel;
 	
 	public User()
 	{
 		
 	}
 	
-	public User(int id, String username, String password, String authLevel) {
+	public User(int id, String username, String password, AuthorityLevel authLevel) {
 		this.id = id;
 		this.username = username;
 		this.password = password;
@@ -45,11 +47,11 @@ public class User implements Serializable {
 		this.password = password;
 	}
 
-	public String getAuthLevel() {
+	public AuthorityLevel getAuthLevel() {
 		return authLevel;
 	}
 
-	public void setAuthLevel(String authLevel) {
+	public void setAuthLevel(AuthorityLevel authLevel) {
 		this.authLevel = authLevel;
 	}
 

@@ -1,0 +1,26 @@
+package edu.neumont.csc380.hello.service;
+
+import javax.ws.rs.core.Response;
+
+public class PayLoad {
+	private AuthTokenV1 token;
+	private Response payLoad;
+	private int gioValue;
+	
+	
+	public PayLoad(AuthTokenV1 token, Response payLoad,int gioValue) {
+		this.token = token;
+		this.payLoad = payLoad;
+		this.gioValue = gioValue;
+	}
+	
+	public AuthTokenV1 getToken() {
+		return token;
+	}
+	public Response getPayLoad() {
+		return payLoad;
+	}
+	public int getGioValue() {
+		return gioValue;
+	}
+}

@@ -20,6 +20,7 @@
 				<value>application/vnd.neumont.auth.edu-v1+json</value>
 			</list>
 		</property>
+		<property name="ignoreNamespaces" value="true"></property>
 	</bean>
 	
     <jaxrs:server id="jaxrsService" address="/">
@@ -28,6 +29,7 @@
 	   </jaxrs:serviceBeans>
 	   <jaxrs:providers>
 	   	  <ref bean="jsonProvider"/>
+	   	  <bean class="edu.neumont.csc380.exceptions.CustomExceptionMapper"/>
 	   </jaxrs:providers>
 	</jaxrs:server>
 </beans>

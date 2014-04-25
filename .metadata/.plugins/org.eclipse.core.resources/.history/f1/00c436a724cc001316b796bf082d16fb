@@ -1,0 +1,23 @@
+package edu.neumont.csc380.hello.service;
+
+import javax.ws.rs.core.Response;
+
+import edu.neumont.csc380.auth.Authorization.Encryptor;
+
+public class PayLoad {
+	private AuthTokenV1 token;
+	private String message;
+	
+	
+	public PayLoad(AuthUser authUser, String payLoad) {
+		this.token = Encryptor.encryptUser(authUser, payLoad);
+		this.message = payLoad;
+	}
+	
+	public AuthTokenV1 getToken() {
+		return token;
+	}
+	public String getMessage() {
+		return message;
+	}
+}

@@ -5,7 +5,9 @@ import java.util.HashMap;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.ext.ExceptionMapper;
+import javax.ws.rs.ext.Provider;
 
+@Provider
 public class CustomExceptionMapper implements ExceptionMapper<Throwable> {
 
 	HashMap<Class<?>, Status> responseMap = new HashMap<Class<?>, Status>();
@@ -20,11 +22,11 @@ public class CustomExceptionMapper implements ExceptionMapper<Throwable> {
 	}
 	
 	public Response toResponse(Throwable arg0) {
-		if(responseMap.containsKey(arg0.getCause())){
-			return Response.status(responseMap.get(arg0)).build();
+		if(responseMap.containsKey(arg0.getClass())){
+			return Response.status(responseMap.get(arg0.getClass())).entity(null).build();
 		}
 		else{
-			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity(null).build();
 		}
 	}
 

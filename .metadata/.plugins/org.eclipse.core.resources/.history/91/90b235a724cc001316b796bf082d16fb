@@ -1,0 +1,21 @@
+package edu.neumont.csc380.hello.service;
+
+import javax.ws.rs.core.Response;
+
+public class PayLoad {
+	private AuthTokenV1 token;
+	private String message;
+	
+	
+	public PayLoad(AuthTokenV1 token, String payLoad) {
+		this.token = token;
+		this.message = payLoad;
+	}
+	
+	public AuthTokenV1 getToken() {
+		return token;
+	}
+	public String getMessage() {
+		return message;
+	}
+}
