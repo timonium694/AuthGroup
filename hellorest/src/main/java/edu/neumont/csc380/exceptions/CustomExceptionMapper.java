@@ -21,6 +21,7 @@ public class CustomExceptionMapper implements ExceptionMapper<Throwable> {
 	
 	public Response toResponse(Throwable arg0) {
 		if(responseMap.containsKey(arg0.getCause())){
+			
 			return Response.status(responseMap.get(arg0)).build();
 		}
 		else{

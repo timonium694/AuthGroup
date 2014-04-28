@@ -20,6 +20,7 @@
 				<value>application/vnd.neumont.auth.edu-v1+json</value>
 			</list>
 		</property>
+		<property name="ignoreNamespaces" value="true"/>
 	</bean>
 	
     <jaxrs:server id="jaxrsService" address="/">

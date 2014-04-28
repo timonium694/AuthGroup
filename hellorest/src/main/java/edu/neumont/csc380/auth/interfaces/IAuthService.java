@@ -12,7 +12,7 @@ public interface IAuthService {
 	public Response authorizeUser();
 
 	@Path("/updatePass/{id}")
-	@Produces("application/json")
+	@Produces("japplication/json")
 	@Consumes("application/json")
 	String updateUserPassword(@PathParam("id") int id, String password);
 	
