@@ -26,4 +26,8 @@ public class AuthCredentialsV1 {
 	public String getServerCredentials() {
 		return serverCredentials;
 	}
+	public String toString()
+	{
+		return "Server Cred: " + this.serverCredentials + " Username: " + this.userName;
+	}
 }

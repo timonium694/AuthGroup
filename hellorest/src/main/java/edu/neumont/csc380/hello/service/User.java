@@ -54,5 +54,10 @@ public class User implements Serializable {
 	public void setAuthLevel(AuthorityLevel authLevel) {
 		this.authLevel = authLevel;
 	}
+	
+	public String toString()
+	{
+		return "ID: " + this.id + " Username: " + this.username + " AuthLevel: " +this.authLevel;
+	}
 
 }

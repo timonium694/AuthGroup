@@ -26,4 +26,8 @@ public class AuthUser {
 	public String getUsername() {
 		return username;
 	}
+	public String toString()
+	{
+		return "ID: " + this.id + " Username: " + this.username + " AuthLevel: " +this.authorityLevel;
+	}
 }

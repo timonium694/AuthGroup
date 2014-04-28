@@ -33,7 +33,7 @@ public class AuthClientImpl{
 		Encryptor encryptor = new Encryptor();
 		try {
 			AuthUser authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
-			System.out.println(authUser.getAuthorityLevel());
+			System.out.println(authUser);
 		} catch (MessageProcessingException | IllegalStateException
 				| ExpiredTokenException | InvalidTokenException | IOException e) {
 			// TODO Auto-generated catch block

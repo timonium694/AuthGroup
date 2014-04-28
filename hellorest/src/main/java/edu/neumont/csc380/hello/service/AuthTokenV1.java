@@ -60,4 +60,8 @@ public class AuthTokenV1
 	{
 		return expiry;
 	}
+	public String toString()
+	{
+		return "Token: " + this.token + " Expiry: " + this.expiry.toString() + " Message: " + this.message;
+	}
 }
