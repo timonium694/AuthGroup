@@ -15,7 +15,6 @@ import edu.neumont.csc380.exceptions.InvalidTokenException;
 import edu.neumont.csc380.hello.service.AuthCredentialsV1;
 import edu.neumont.csc380.hello.service.AuthTokenV1;
 import edu.neumont.csc380.hello.service.AuthUser;
-import edu.neumont.csc380.hello.service.User;
 
 
 public class AuthClientImpl{

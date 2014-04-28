@@ -56,7 +56,7 @@ public class AuthServiceImpl implements IAuthService {
 			u.setUsername("newUser");
 			UserFactory uf = new UserFactory();
 			uf.createNewUser(u);
-			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel());
+			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(), u.getUsername());
 			String message = "User " + u.getUsername() + " with the user id" + u.getId() + " and the authority level" + u.getAuthLevel() + " has been created";
 			
 			try {

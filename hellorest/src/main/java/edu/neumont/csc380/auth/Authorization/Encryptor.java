@@ -24,11 +24,12 @@ import edu.neumont.csc380.hello.service.AuthUser;
 public class Encryptor {
 	private final static String ID_STRING = "ID:";
 	private final static String AUTH_STRING = ";AUTH:";
+	private final static String USERNAME_STRING =";USERNAME:";
 	
 	public AuthTokenV1 encryptUser(AuthUser user,String message) throws IOException
 	{
 		int gioValue = calculateGioValue(message);
-		String encode = Base64Utility.encode((ID_STRING + user.getId() + AUTH_STRING + user.getAuthorityLevel()).getBytes());
+		String encode = Base64Utility.encode((ID_STRING + user.getId() + AUTH_STRING + user.getAuthorityLevel()+USERNAME_STRING+user.getUsername()).getBytes());
 		AuthTokenV1 token = new AuthTokenV1(encode,gioValue,message);
 		return token;
 	}
@@ -52,14 +53,16 @@ public class Encryptor {
 		checkGio(token.getGioValue(), token.getMessage());
 		try {
 			String decrypt = new String(Base64Utility.decode(token.getToken()),"UTF8");
-			String[] values = decrypt.split(AUTH_STRING);
-			if(values.length != 2)
+			String[] values = decrypt.split(";");
+			if(values.length != 3)
 			{
 				throw new InvalidTokenException();
 			}
 			int id = Integer.parseInt(values[0].replace(ID_STRING, ""));
-			AuthorityLevel authority = Enum.valueOf(AuthorityLevel.class, values[1]);
-			return new AuthUser(id, authority);
+			String authLevelString = values[1].replace("AUTH:", "");
+			AuthorityLevel authority = Enum.valueOf(AuthorityLevel.class, authLevelString);
+			String username = values[2].replace("USERNAME:", "");
+			return new AuthUser(id, authority, username);
 		} catch (UnsupportedEncodingException | Base64Exception | IllegalArgumentException e) {
 			throw new InvalidTokenException();
 		}
