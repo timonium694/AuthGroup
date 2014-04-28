@@ -1,12 +1,20 @@
 package edu.neumont.csc380.auth.client;
 
 
+import java.io.IOException;
+
+import javax.ws.rs.MessageProcessingException;
 import javax.ws.rs.core.Response;
 
 import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
 
+import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
+import edu.neumont.csc380.exceptions.ExpiredTokenException;
+import edu.neumont.csc380.exceptions.InvalidTokenException;
 import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+import edu.neumont.csc380.hello.service.AuthTokenV1;
+import edu.neumont.csc380.hello.service.AuthUser;
 import edu.neumont.csc380.hello.service.User;
 
 
@@ -22,6 +30,15 @@ public class AuthClientImpl{
 		Response r = proxy.createUser();
 		System.out.println(r);
 		System.out.println(r.getStatus());
-		System.out.println(r.readEntity(User.class).getAuthLevel());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			AuthUser authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (MessageProcessingException | IllegalStateException
+				| ExpiredTokenException | InvalidTokenException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

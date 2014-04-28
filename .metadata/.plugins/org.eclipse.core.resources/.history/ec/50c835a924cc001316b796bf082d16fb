@@ -1,0 +1,36 @@
+package edu.neumont.csc380.hello.service;
+
+import java.util.Calendar;
+import java.util.Date;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class AuthTokenV1 
+{
+	private String token;
+	private Date expiry;
+	private int gioValue;
+	
+	public AuthTokenV1(String token,int gioValue)
+	{
+		this.token = token;
+		this.gioValue = gioValue;
+		Calendar cal = Calendar.getInstance();
+		cal.add(Calendar.MINUTE, 20);
+		expiry = cal.getTime();
+	}
+
+	public String getToken() {
+		return token;
+	}
+	
+	public int getGioValue() {
+		return gioValue;
+	}
+	
+	public Date getExpiry()
+	{
+		return expiry;
+	}
+}
