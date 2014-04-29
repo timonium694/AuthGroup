@@ -55,4 +55,8 @@ public class AuthCredentialsV1 {
 	public void setUpdatedAuthLevel(AuthorityLevel updatedAuthLevel) {
 		this.updatedAuthLevel = updatedAuthLevel;
 	}
+	public String toString()
+	{
+		return "Server Cred: " + this.serverCredentials + " Username: " + this.userName;
+	}
 }

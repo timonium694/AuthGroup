@@ -3,9 +3,15 @@ package edu.neumont.csc380.auth.client;
 
 import java.io.IOException;
 
+import javax.ws.rs.Consumes;
 import javax.ws.rs.MessageProcessingException;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
+
 import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
 import edu.neumont.csc380.exceptions.InvalidTokenException;
@@ -29,7 +35,7 @@ public class AuthClientImpl{
 		try {
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
-		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+		} catch (MessageProcessingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -50,7 +56,7 @@ public class AuthClientImpl{
 		try {
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
-		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+		} catch (MessageProcessingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -71,7 +77,7 @@ public class AuthClientImpl{
 		try {
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
-		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+		} catch (MessageProcessingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -80,12 +86,12 @@ public class AuthClientImpl{
 			return authUser;
 		}
 	}
+
 	
 	public AuthUser updateUser(AuthCredentialsV1 streetCred)
 	{
 		AuthUser authUser = null;
-		//Response r = proxy.updateUserPassword(streetCred);
-		Response r = proxy.updateUserPassword();
+		Response r = proxy.updateUserPassword(streetCred);
 		System.out.println(r);
 		System.out.println(r.getStatus());
 		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
@@ -93,8 +99,7 @@ public class AuthClientImpl{
 		try {
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
-		} catch (MessageProcessingException | IllegalStateException | IOException e) {
-			// TODO Auto-generated catch block
+		} catch (MessageProcessingException e) {
 			e.printStackTrace();
 		}
 		finally

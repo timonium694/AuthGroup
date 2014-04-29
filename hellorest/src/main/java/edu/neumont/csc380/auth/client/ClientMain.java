@@ -11,7 +11,10 @@ public class ClientMain {
 		AuthClientImpl client = new AuthClientImpl();
 		try {
 			client.createUser(new AuthCredentialsV1("Tim", "isCanada", "Me",AuthorityLevel.User));
-		} catch (InvalidTokenException | UserDoesNotExistException e) {
+		} catch (InvalidTokenException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (UserDoesNotExistException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

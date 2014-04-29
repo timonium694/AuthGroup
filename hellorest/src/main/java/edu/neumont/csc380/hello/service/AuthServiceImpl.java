@@ -24,7 +24,7 @@ private UserFactory userFactory = new UserFactory();
 			u.setPassword(streetCred.getPassword());
 			u.setUsername(streetCred.getUserName());
 			userFactory.createNewUser(u);
-			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(),20);
+			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(),u.getUsername(),20);
 			String message = "User " + u.getUsername() + " with the user id " + u.getId() + " and the authority level " + u.getAuthLevel() + " has been created";
 			
 			try {
@@ -39,14 +39,14 @@ private UserFactory userFactory = new UserFactory();
 				return response;
 			}
 	}
-	
-	public Response updateUserPassword() {
+
+	public Response updateUserPassword(AuthCredentialsV1 streetCred) {
 		// TODO Auto-generated method stub
 		System.out.println("Updatin");
-		return Response.status(200).entity(new User(1,"asdf","3",AuthorityLevel.User)).build();
+		return Response.ok(new AuthTokenV1("asdf", 4, "what")).build();
 	}
 
-	@Override
+
 	public Response authorizeUser(AuthCredentialsV1 streetCred) {
 		// TODO Auto-generated method stub
 		return null;

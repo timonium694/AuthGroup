@@ -9,11 +9,13 @@ import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 
 public class AuthUser {
 	private int id;
+	private String username;
 	private AuthorityLevel authorityLevel;
 	private Date expiry;
 	
-	
-	public AuthUser(int id, AuthorityLevel authorityLevel,int expiryMinutes) {
+	public AuthUser(int id, AuthorityLevel authorityLevel, String username,int expiryMinutes) {
+		super();
+		this.username = username;
 		this.id = id;
 		this.authorityLevel = authorityLevel;
 		Calendar cal = Calendar.getInstance();
@@ -27,10 +29,19 @@ public class AuthUser {
 	public AuthorityLevel getAuthorityLevel() {
 		return authorityLevel;
 	}
-	
+
 	public boolean hasExpired()
 	{
 		Date now = new Date();
 		return expiry.before(now);
+	}
+	
+	public String getUsername() {
+		return username;
+	}
+	
+	public String toString()
+	{
+		return "ID: " + this.id + " Username: " + this.username + " AuthLevel: " +this.authorityLevel;
 	}
 }
