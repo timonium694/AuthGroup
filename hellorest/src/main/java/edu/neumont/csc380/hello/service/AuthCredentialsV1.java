@@ -13,6 +13,7 @@ public class AuthCredentialsV1 {
 		this.userName = userName;
 		this.password = password;
 		this.serverCredentials = serverCredentials;
+		
 	}
 
 	public String getUserName() {

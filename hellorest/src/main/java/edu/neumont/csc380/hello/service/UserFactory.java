@@ -1,8 +1,6 @@
 package edu.neumont.csc380.hello.service;
 
-import java.io.IOException;
 import java.util.ArrayList;
-
 import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 
 public class UserFactory {
@@ -11,12 +9,13 @@ public class UserFactory {
 	private static int currentId = 0;
 	public ArrayList<User> getUsers()
 	{
-		return this.users;
+		return UserFactory.users;
 	}
 	public Boolean updateUserPass(int id, String newPass) 
 	{
-		Boolean updated = false;
-		for(User u : this.users)
+		
+		boolean updated = false;
+		for(User u : UserFactory.users)
 		{
 			if(u.getId()==id)
 			{
@@ -31,8 +30,8 @@ public class UserFactory {
 	public Boolean createNewUser(User u)
 	{
 		Boolean created = false;
-		u.setId(this.currentId++);
-		this.users.add(u);
+		u.setId(UserFactory.currentId++);
+		UserFactory.users.add(u);
 
 		return  created;
 	}
@@ -41,7 +40,7 @@ public class UserFactory {
 		AuthorityLevel output = null;
 
 
-		for(User u : this.users)
+		for(User u : UserFactory.users)
 		{
 			if(u.getId()==id)
 			{
@@ -56,7 +55,7 @@ public class UserFactory {
 	public User retrieveUser(int id)
 	{
 		User user = null;
-		for(User u : this.users)
+		for(User u : UserFactory.users)
 		{
 			if(u.getId()==id)
 			{
