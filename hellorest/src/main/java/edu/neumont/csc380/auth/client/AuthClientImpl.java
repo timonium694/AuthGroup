@@ -5,40 +5,101 @@ import java.io.IOException;
 
 import javax.ws.rs.MessageProcessingException;
 import javax.ws.rs.core.Response;
-
 import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
-
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
-import edu.neumont.csc380.exceptions.ExpiredTokenException;
 import edu.neumont.csc380.exceptions.InvalidTokenException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 import edu.neumont.csc380.hello.service.AuthCredentialsV1;
 import edu.neumont.csc380.hello.service.AuthTokenV1;
 import edu.neumont.csc380.hello.service.AuthUser;
-import edu.neumont.csc380.hello.service.User;
 
 
 public class AuthClientImpl{
-	public static void main(String[] args)
-	{
-		createUser(new AuthCredentialsV1("Tim", "isGay", "Me"));
-	}
+	private final IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest", IAuthService.class);
 	
-	public static void createUser(AuthCredentialsV1 streetCred)
+	public AuthUser createUser(AuthCredentialsV1 streetCred) throws InvalidTokenException, UserDoesNotExistException
 	{
-		IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest", IAuthService.class );
-		Response r = proxy.createUser();
+		AuthUser authUser = null;
+		Response r = proxy.createUser(streetCred);
 		System.out.println(r);
 		System.out.println(r.getStatus());
 		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
 		Encryptor encryptor = new Encryptor();
 		try {
-			AuthUser authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
-		} catch (MessageProcessingException | IllegalStateException
-				| ExpiredTokenException | InvalidTokenException | IOException e) {
+		} catch (MessageProcessingException | IllegalStateException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser authenticateUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		Response r = proxy.authorizeUser(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser deleteUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		Response r = proxy.deleteUser(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser updateUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		//Response r = proxy.updateUserPassword(streetCred);
+		Response r = proxy.updateUserPassword();
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (MessageProcessingException | IllegalStateException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
 		}
 	}
 }

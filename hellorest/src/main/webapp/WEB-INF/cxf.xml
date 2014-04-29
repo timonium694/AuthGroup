@@ -21,6 +21,9 @@
 			</list>
 		</property>
 		<property name="ignoreNamespaces" value="true"></property>
+		<property name="singleJaxbContext" value="true"></property>
+		<property name="marshallAsJaxbElement" value="true"></property>
+		<property name="unmarshallAsJaxbElement" value="true"></property>
 	</bean>
 	
     <jaxrs:server id="jaxrsService" address="/">

@@ -9,6 +9,7 @@ public class UserFactory {
 
 	private static ArrayList<User> users = new ArrayList<User>();
 	private static int currentId = 0;
+	
 	public ArrayList<User> getUsers()
 	{
 		return this.users;
@@ -121,7 +122,7 @@ public class UserFactory {
 		}
 		return user;
 	}
-	public Boolean deleteUser(int id)
+	public Boolean deleteUser(String userName)
 	{
 		Boolean deleted = false;
 //		try
@@ -136,7 +137,7 @@ public class UserFactory {
 //		}
 		for(int i = 0; i<users.size();i++)
 		{
-			if(users.get(i).getId()==id)
+			if(users.get(i).getUsername().equals(userName))
 			{
 				users.remove(i);
 			}

@@ -1,0 +1,18 @@
+package edu.neumont.csc380.auth.client;
+
+import edu.neumont.csc380.exceptions.InvalidTokenException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+
+public class ClientMain {
+	public static void main(String[] args)
+	{
+		AuthClientImpl client = new AuthClientImpl();
+		try {
+			client.createUser(new AuthCredentialsV1("Tim", "isGay", "Me"));
+		} catch (InvalidTokenException | UserDoesNotExistException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

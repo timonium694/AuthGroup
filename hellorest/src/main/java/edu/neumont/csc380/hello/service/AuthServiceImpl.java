@@ -1,7 +1,4 @@
 package edu.neumont.csc380.hello.service;
-import java.io.IOException;
-
-import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 
 import org.springframework.stereotype.Service;
@@ -9,55 +6,26 @@ import org.springframework.stereotype.Service;
 import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
-import edu.neumont.csc380.exceptions.InvalidPasswordException;
-import edu.neumont.csc380.exceptions.InvalidServerContentTypeException;
 
 @Service("authService")
 public class AuthServiceImpl implements IAuthService {
-
-	public Response authorizeUser() {
-		return null;
-	}
-
-	public Response updateUserPassword() {
-		UserFactory uf = new UserFactory();
-		uf.updateUserPass(0, "theNewPass");
+private UserFactory userFactory = new UserFactory();
+	
+	public Response deleteUser(AuthCredentialsV1 streetCred) {
+		userFactory.deleteUser(streetCred.getUserName());
 		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
 	}
 
-	public Response deleteUser(int id) {
-		UserFactory uf = new UserFactory();
-		uf.deleteUser(0);
-		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
-	}
-	public Response retrieveUser()
-	{
-		try
-		{
-			
-			UserFactory uf = new UserFactory();
-			User u = uf.retrieveUser(0);
-			return Response.ok(u).build();
-		}
-		catch(Exception ex)
-		{
-			
-		}
-		return Response.ok("Failure to retrieve user").build();
-	}
-
-	public Response createUser()
+	public Response createUser(AuthCredentialsV1 streetCred)
 	{
 		Response response = null;
 			User u = new User();
-			u.setAuthLevel(AuthorityLevel.Admin);
-			u.setId(0);
-			u.setPassword("password");
-			u.setUsername("newUser");
-			UserFactory uf = new UserFactory();
-			uf.createNewUser(u);
-			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel());
-			String message = "User " + u.getUsername() + " with the user id" + u.getId() + " and the authority level" + u.getAuthLevel() + " has been created";
+			u.setAuthLevel(streetCred.getUpdatedAuthLevel());
+			u.setPassword(streetCred.getPassword());
+			u.setUsername(streetCred.getUserName());
+			userFactory.createNewUser(u);
+			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(),20);
+			String message = "User " + u.getUsername() + " with the user id " + u.getId() + " and the authority level " + u.getAuthLevel() + " has been created";
 			
 			try {
 				Encryptor encryptor = new Encryptor();
@@ -72,19 +40,15 @@ public class AuthServiceImpl implements IAuthService {
 			}
 	}
 	
-	public String updateUserPassword(int id, String password) {
+	public Response updateUserPassword() {
+		// TODO Auto-generated method stub
+		System.out.println("Updatin");
+		return Response.status(200).entity(new User(1,"asdf","3",AuthorityLevel.User)).build();
+	}
+
+	@Override
+	public Response authorizeUser(AuthCredentialsV1 streetCred) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	public String retrieveUser(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	
-
-	
-	
-
 }
