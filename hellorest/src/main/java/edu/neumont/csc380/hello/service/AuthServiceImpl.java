@@ -1,4 +1,6 @@
 package edu.neumont.csc380.hello.service;
+import java.io.IOException;
+
 import javax.ws.rs.core.Response;
 
 import org.springframework.stereotype.Service;
@@ -6,14 +8,20 @@ import org.springframework.stereotype.Service;
 import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
+import edu.neumont.csc380.exceptions.InvalidPasswordException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 
 @Service("authService")
 public class AuthServiceImpl implements IAuthService {
 private UserFactory userFactory = new UserFactory();
+private Encryptor encryptor = new Encryptor();
 	
-	public Response deleteUser(AuthCredentialsV1 streetCred) {
-		userFactory.deleteUser(streetCred.getUserName());
-		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
+	public Response deleteUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException {
+		if(!userFactory.deleteUser(streetCred.getUserName()))
+		{
+			throw new UserDoesNotExistException();
+		}
+		return Response.status(204).entity("User " + streetCred.getUserName() + " Deleted").build();
 	}
 
 	public Response createUser(AuthCredentialsV1 streetCred)
@@ -40,15 +48,26 @@ private UserFactory userFactory = new UserFactory();
 			}
 	}
 
-	public Response updateUserPassword(AuthCredentialsV1 streetCred) {
-		// TODO Auto-generated method stub
-		System.out.println("Updatin");
-		return Response.ok(new AuthTokenV1("asdf", 4, "what")).build();
+	public Response updateUserPassword(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
+	{
+		User user = userFactory.updateUserPass(streetCred.getUserName(), streetCred.getPassword(),streetCred.getExtraData());
+		if(user == null)
+		{
+			throw new UserDoesNotExistException();
+		}
+		AuthUser authUser = new AuthUser(user.getId(), user.getAuthLevel(), user.getUsername(), 20);
+		return Response.ok(encryptor.encryptUser(authUser, "User " + streetCred.getUserName() + " has updated thier password.")).build();
 	}
 
 
-	public Response authorizeUser(AuthCredentialsV1 streetCred) {
-		// TODO Auto-generated method stub
-		return null;
+	public Response authorizeUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
+	{
+		if(!userFactory.deleteUser(streetCred.getUserName()))
+		{
+			throw new UserDoesNotExistException();
+		}
+		User user = userFactory.retrieveUser(streetCred.getUserName(),streetCred.getPassword());
+		AuthUser authUser = new AuthUser(user.getId(), user.getAuthLevel(), user.getUsername(), 20);
+		return Response.ok(encryptor.encryptUser(authUser, "User " + streetCred.getUserName() + " has updated thier password.")).build();
 	}
 }

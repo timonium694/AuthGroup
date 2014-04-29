@@ -1,9 +1,9 @@
 package edu.neumont.csc380.hello.service;
-
-import java.io.IOException;
 import java.util.ArrayList;
 
 import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
+import edu.neumont.csc380.exceptions.InvalidPasswordException;
+import edu.neumont.csc380.exceptions.UserAlreadyExistsException;
 
 public class UserFactory {
 
@@ -14,27 +14,37 @@ public class UserFactory {
 	{
 		return this.users;
 	}
-	public Boolean updateUserPass(int id, String newPass) 
+	public User updateUserPass(String userName, String oldPass, String newPass) 
 	{
-		Boolean updated = false;
+		User updatedUser = null;
 		for(User u : this.users)
 		{
-			if(u.getId()==id)
+			if(u.getUsername().equals(userName))
 			{
+				if(!u.getPassword().equals(oldPass))
+				{
+					throw new InvalidPasswordException();
+				}
 				u.setPassword(newPass);
-				updated = true;
+				updatedUser = u;
 				break;
 			}
 		}
 		
-		return updated;
+		return updatedUser;
 	}
 	public Boolean createNewUser(User u)
 	{
 		Boolean created = false;
 		u.setId(this.currentId++);
+		for(User user : users)
+		{
+			if(user.getUsername().equals(u.getUsername()))
+			{
+				throw new UserAlreadyExistsException();
+			}
+		}
 		this.users.add(u);
-
 		return  created;
 	}
 	public AuthorityLevel getAuthenticationLevel(int id)
@@ -54,14 +64,17 @@ public class UserFactory {
 		
 		 return output;
 	}
-	public User retrieveUser(int id)
+	public User retrieveUser(String userName,String password)
 	{
 		User user = null;
 		for(User u : this.users)
 		{
-			if(u.getId()==id)
+			if(u.getUsername().equals(userName))
 			{
-				user=u;
+				if(u.getPassword().equals(password))
+				{
+					user=u;
+				}
 				break;
 			}
 		}

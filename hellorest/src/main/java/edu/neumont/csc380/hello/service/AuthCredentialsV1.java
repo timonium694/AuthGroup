@@ -8,6 +8,7 @@ import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 public class AuthCredentialsV1 {
 	private String userName;
 	private String password;
+	private String extraData;
 	private String serverCredentials;
 	private AuthorityLevel updatedAuthLevel;
 	
@@ -55,6 +56,14 @@ public class AuthCredentialsV1 {
 	public void setUpdatedAuthLevel(AuthorityLevel updatedAuthLevel) {
 		this.updatedAuthLevel = updatedAuthLevel;
 	}
+	public String getExtraData() {
+		return extraData;
+	}
+
+	public void setExtraData(String extraData) {
+		this.extraData = extraData;
+	}
+
 	public String toString()
 	{
 		return "Server Cred: " + this.serverCredentials + " Username: " + this.userName;

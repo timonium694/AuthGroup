@@ -12,6 +12,7 @@ import javax.ws.rs.core.Response;
 
 import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
 
+import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
 import edu.neumont.csc380.exceptions.InvalidTokenException;
@@ -24,8 +25,9 @@ import edu.neumont.csc380.hello.service.AuthUser;
 public class AuthClientImpl{
 	private final IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest", IAuthService.class);
 	
-	public AuthUser createUser(AuthCredentialsV1 streetCred) throws InvalidTokenException, UserDoesNotExistException
+	public AuthUser createUser(String userName,String password,String serverCredentials,AuthorityLevel authority) throws InvalidTokenException, UserDoesNotExistException
 	{
+		AuthCredentialsV1 streetCred = new AuthCredentialsV1(userName, password, serverCredentials, authority);
 		AuthUser authUser = null;
 		Response r = proxy.createUser(streetCred);
 		System.out.println(r);
@@ -45,15 +47,16 @@ public class AuthClientImpl{
 		}
 	}
 	
-	public AuthUser authenticateUser(AuthCredentialsV1 streetCred)
+	public AuthUser authenticateUser(String userName,String password,String serverCredentials) throws UserDoesNotExistException
 	{
+		AuthCredentialsV1 streetCred = new AuthCredentialsV1(userName, password, serverCredentials, null);
 		AuthUser authUser = null;
-		Response r = proxy.authorizeUser(streetCred);
-		System.out.println(r);
-		System.out.println(r.getStatus());
-		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
-		Encryptor encryptor = new Encryptor();
 		try {
+			Response r = proxy.authorizeUser(streetCred);
+			System.out.println(r);
+			System.out.println(r.getStatus());
+			System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+			Encryptor encryptor = new Encryptor();
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
 		} catch (MessageProcessingException e) {
@@ -66,8 +69,9 @@ public class AuthClientImpl{
 		}
 	}
 	
-	public AuthUser deleteUser(AuthCredentialsV1 streetCred)
+	public AuthUser deleteUser(String userName,String password,String serverCredentials) throws UserDoesNotExistException
 	{
+		AuthCredentialsV1 streetCred = new AuthCredentialsV1(userName, password, serverCredentials, null);
 		AuthUser authUser = null;
 		Response r = proxy.deleteUser(streetCred);
 		System.out.println(r);
@@ -88,15 +92,17 @@ public class AuthClientImpl{
 	}
 
 	
-	public AuthUser updateUser(AuthCredentialsV1 streetCred)
+	public AuthUser updateUser(String userName,String password,String serverCredentials,String updatedPassword) throws UserDoesNotExistException
 	{
+		AuthCredentialsV1 streetCred = new AuthCredentialsV1(userName, password, serverCredentials, null);
+		streetCred.setExtraData(updatedPassword);
 		AuthUser authUser = null;
-		Response r = proxy.updateUserPassword(streetCred);
-		System.out.println(r);
-		System.out.println(r.getStatus());
-		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
-		Encryptor encryptor = new Encryptor();
 		try {
+			Response r = proxy.updateUserPassword(streetCred);
+			System.out.println(r);
+			System.out.println(r.getStatus());
+			System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+			Encryptor encryptor = new Encryptor();
 			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
 			System.out.println(authUser.getAuthorityLevel());
 		} catch (MessageProcessingException e) {
