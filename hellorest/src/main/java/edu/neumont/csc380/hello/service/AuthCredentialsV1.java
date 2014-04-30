@@ -2,18 +2,27 @@ package edu.neumont.csc380.hello.service;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
+
 @XmlRootElement
 public class AuthCredentialsV1 {
 	private String userName;
 	private String password;
+	private String extraData;
 	private String serverCredentials;
+	private AuthorityLevel updatedAuthLevel;
 	
-	public AuthCredentialsV1(String userName,String password,String serverCredentials)
+	public AuthCredentialsV1()
+	{
+		
+	}
+	
+	public AuthCredentialsV1(String userName,String password,String serverCredentials,AuthorityLevel updatedAuthLevel)
 	{
 		this.userName = userName;
 		this.password = password;
 		this.serverCredentials = serverCredentials;
-		
+		this.updatedAuthLevel = updatedAuthLevel;
 	}
 
 	public String getUserName() {
@@ -27,6 +36,34 @@ public class AuthCredentialsV1 {
 	public String getServerCredentials() {
 		return serverCredentials;
 	}
+	
+	public AuthorityLevel getUpdatedAuthLevel() {
+		return updatedAuthLevel;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setServerCredentials(String serverCredentials) {
+		this.serverCredentials = serverCredentials;
+	}
+
+	public void setUpdatedAuthLevel(AuthorityLevel updatedAuthLevel) {
+		this.updatedAuthLevel = updatedAuthLevel;
+	}
+	public String getExtraData() {
+		return extraData;
+	}
+
+	public void setExtraData(String extraData) {
+		this.extraData = extraData;
+	}
+
 	public String toString()
 	{
 		return "Server Cred: " + this.serverCredentials + " Username: " + this.userName;

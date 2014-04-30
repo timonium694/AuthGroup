@@ -1,7 +1,6 @@
 package edu.neumont.csc380.hello.service;
 import java.io.IOException;
 
-import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 
 import org.springframework.stereotype.Service;
@@ -10,54 +9,31 @@ import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 import edu.neumont.csc380.auth.Authorization.Encryptor;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
 import edu.neumont.csc380.exceptions.InvalidPasswordException;
-import edu.neumont.csc380.exceptions.InvalidServerContentTypeException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 
 @Service("authService")
 public class AuthServiceImpl implements IAuthService {
-
-	public Response authorizeUser() {
-		return null;
-	}
-
-	public Response updateUserPassword() {
-		UserFactory uf = new UserFactory();
-		uf.updateUserPass(0, "theNewPass");
-		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
-	}
-
-	public Response deleteUser(int id) {
-		UserFactory uf = new UserFactory();
-		uf.deleteUser(0);
-		return Response.ok("{\"token\": \"1098as7dfasfdGIOas09fd\" }").build();
-	}
-	public Response retrieveUser()
-	{
-		try
+private UserFactory userFactory = new UserFactory();
+private Encryptor encryptor = new Encryptor();
+	
+	public Response deleteUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException {
+		if(!userFactory.deleteUser(streetCred.getUserName()))
 		{
-			
-			UserFactory uf = new UserFactory();
-			User u = uf.retrieveUser(0);
-			return Response.ok(u).build();
+			throw new UserDoesNotExistException();
 		}
-		catch(Exception ex)
-		{
-			
-		}
-		return Response.ok("Failure to retrieve user").build();
+		return Response.status(204).entity("User " + streetCred.getUserName() + " Deleted").build();
 	}
 
-	public Response createUser()
+	public Response createUser(AuthCredentialsV1 streetCred)
 	{
 		Response response = null;
 			User u = new User();
-			u.setAuthLevel(AuthorityLevel.Admin);
-			u.setId(0);
-			u.setPassword("password");
-			u.setUsername("newUser");
-			UserFactory uf = new UserFactory();
-			uf.createNewUser(u);
-			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(), u.getUsername());
-			String message = "User " + u.getUsername() + " with the user id" + u.getId() + " and the authority level" + u.getAuthLevel() + " has been created";
+			u.setAuthLevel(streetCred.getUpdatedAuthLevel());
+			u.setPassword(streetCred.getPassword());
+			u.setUsername(streetCred.getUserName());
+			userFactory.createNewUser(u);
+			AuthUser authUser = new AuthUser(u.getId(), u.getAuthLevel(),u.getUsername(),20);
+			String message = "User " + u.getUsername() + " with the user id " + u.getId() + " and the authority level " + u.getAuthLevel() + " has been created";
 			
 			try {
 				Encryptor encryptor = new Encryptor();
@@ -71,20 +47,27 @@ public class AuthServiceImpl implements IAuthService {
 				return response;
 			}
 	}
-	
-	public String updateUserPassword(int id, String password) {
-		// TODO Auto-generated method stub
-		return null;
+
+	public Response updateUserPassword(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
+	{
+		User user = userFactory.updateUserPass(streetCred.getUserName(), streetCred.getPassword(),streetCred.getExtraData());
+		if(user == null)
+		{
+			throw new UserDoesNotExistException();
+		}
+		AuthUser authUser = new AuthUser(user.getId(), user.getAuthLevel(), user.getUsername(), 20);
+		return Response.ok(encryptor.encryptUser(authUser, "User " + streetCred.getUserName() + " has updated thier password.")).build();
 	}
 
-	public String retrieveUser(int id) {
-		// TODO Auto-generated method stub
-		return null;
+
+	public Response authorizeUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
+	{
+		if(!userFactory.deleteUser(streetCred.getUserName()))
+		{
+			throw new UserDoesNotExistException();
+		}
+		User user = userFactory.retrieveUser(streetCred.getUserName(),streetCred.getPassword());
+		AuthUser authUser = new AuthUser(user.getId(), user.getAuthLevel(), user.getUsername(), 20);
+		return Response.ok(encryptor.encryptUser(authUser, "User " + streetCred.getUserName() + " has updated thier password.")).build();
 	}
-
-	
-
-	
-	
-
 }

@@ -1,34 +1,32 @@
 package edu.neumont.csc380.auth.interfaces;
 
+import java.io.IOException;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
 
 @Path("/auth")
 public interface IAuthService {
 	@POST
 	@Path("/authorize")
-	@Produces("application/vnd.neumont.auth.edu-v1+json")
 	@Consumes("application/vnd.neumont.auth.edu-v1+json")
-	public Response authorizeUser();
+	public Response authorizeUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException;
 
-	@Path("/updatePass/{id}")
-	@Produces("japplication/json")
-	@Consumes("application/json")
-	String updateUserPassword(@PathParam("id") int id, String password);
+	@POST
+	@Path("/updatePass")
+	@Consumes("application/vnd.neumont.auth.edu-v1+json")
+	public Response updateUserPassword(AuthCredentialsV1 streetCred)  throws UserDoesNotExistException, IOException;
 	
 	@DELETE
-	@Path("/deleteUser/{id}")
-	@Produces("application/json")
-	@Consumes("application/json")
-	Response deleteUser(@PathParam("id") int id);
+	@Path("/deleteUser")
+	@Consumes("application/vnd.neumont.auth.edu-v1+json")
+	public Response deleteUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException;
 	
-	@GET
+	@POST
 	@Path("/create")
-	@Produces("application/json")
-	public Response createUser();
-	
-	@Path("/retrieve/{id}")
-	@Produces("application/json")
-	@Consumes("application/json")
-	String retrieveUser(@PathParam("id") int id);
+	@Consumes("application/vnd.neumont.auth.edu-v1+json")
+	public Response createUser(AuthCredentialsV1 streetCred);
 }

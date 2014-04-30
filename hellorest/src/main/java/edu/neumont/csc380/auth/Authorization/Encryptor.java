@@ -4,20 +4,16 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.net.URL;
 import java.util.Date;
 import java.util.Enumeration;
 
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.ws.rs.core.Response;
 
 import org.apache.cxf.common.util.Base64Exception;
 import org.apache.cxf.common.util.Base64Utility;
-import org.eclipse.jdt.internal.compiler.ast.ThisReference;
-
-import edu.neumont.csc380.exceptions.ExpiredTokenException;
 import edu.neumont.csc380.exceptions.InvalidTokenException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 import edu.neumont.csc380.hello.service.AuthTokenV1;
 import edu.neumont.csc380.hello.service.AuthUser;
 
@@ -47,9 +43,8 @@ public class Encryptor {
 		return gioValue;
 	}
 	
-	public AuthUser DecryptCredentials(AuthTokenV1 token) throws ExpiredTokenException, InvalidTokenException, IOException
+	public AuthUser DecryptCredentials(AuthTokenV1 token) throws InvalidTokenException, IOException, UserDoesNotExistException
 	{
-		checkExpiry(token.getExpiry());
 		checkGio(token.getGioValue(), token.getMessage());
 		try {
 			String decrypt = new String(Base64Utility.decode(token.getToken()),"UTF8");
@@ -61,9 +56,15 @@ public class Encryptor {
 			int id = Integer.parseInt(values[0].replace(ID_STRING, ""));
 			String authLevelString = values[1].replace("AUTH:", "");
 			AuthorityLevel authority = Enum.valueOf(AuthorityLevel.class, authLevelString);
+			if(authority.equals(AuthorityLevel.NotAUser))
+			{
+				throw new UserDoesNotExistException();
+			}
 			String username = values[2].replace("USERNAME:", "");
-			return new AuthUser(id, authority, username);
-		} catch (UnsupportedEncodingException | Base64Exception | IllegalArgumentException e) {
+			return new AuthUser(id, authority, username,token.getExpiryMinutes());
+		} catch (UnsupportedEncodingException e) {
+			throw new InvalidTokenException();
+		} catch (Base64Exception e) {
 			throw new InvalidTokenException();
 		}
 	}
@@ -73,15 +74,6 @@ public class Encryptor {
 		if(gio != calculateGioValue(message))
 		{
 			throw new InvalidTokenException();
-		}
-	}
-	
-	private static void checkExpiry(Date expiry) throws ExpiredTokenException
-	{
-		Date now = new Date();
-		if(expiry.before(now))
-		{
-			throw new ExpiredTokenException();
 		}
 	}
 }

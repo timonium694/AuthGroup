@@ -1,15 +1,12 @@
 package edu.neumont.csc380.hello.service;
 
-import java.util.Calendar;
-import java.util.Date;
-
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class AuthTokenV1 
 {
 	private String token;
-	private Date expiry;
+	private int expiryMinutes;
 	private int gioValue;
 	private String message;
 	
@@ -23,17 +20,15 @@ public class AuthTokenV1
 		this.token = token;
 		this.gioValue = gioValue;
 		this.message = message;
-		Calendar cal = Calendar.getInstance();
-		cal.add(Calendar.MINUTE, 20);
-		expiry = cal.getTime();
+		expiryMinutes = 20;
 	}
 
 	public void setToken(String token) {
 		this.token = token;
 	}
 
-	public void setExpiry(Date expiry) {
-		this.expiry = expiry;
+	public void setExpiryMinutes(int expiryMinutes) {
+		this.expiryMinutes = expiryMinutes;
 	}
 
 	public void setGioValue(int gioValue) {
@@ -56,12 +51,12 @@ public class AuthTokenV1
 		return gioValue;
 	}
 	
-	public Date getExpiry()
+	public int getExpiryMinutes()
 	{
-		return expiry;
+		return expiryMinutes;
 	}
 	public String toString()
 	{
-		return "Token: " + this.token + " Expiry: " + this.expiry.toString() + " Message: " + this.message;
+		return "Token: " + this.token + " Expiry: " + expiryMinutes + " Message: " + this.message;
 	}
 }

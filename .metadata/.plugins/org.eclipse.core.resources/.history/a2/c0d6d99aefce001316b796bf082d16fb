@@ -1,0 +1,37 @@
+package edu.neumont.csc380.hello.service;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
+
+@XmlRootElement
+public class AuthCredentialsV1 {
+	private String userName;
+	private String password;
+	private String serverCredentials;
+	private AuthorityLevel updatedAuthLevel;
+	
+	public AuthCredentialsV1(String userName,String password,String serverCredentials,AuthorityLevel updatedAuthLevel)
+	{
+		this.userName = userName;
+		this.password = password;
+		this.serverCredentials = serverCredentials;
+		this.updatedAuthLevel = updatedAuthLevel;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public String getServerCredentials() {
+		return serverCredentials;
+	}
+	
+	public AuthorityLevel getUpdatedAuthLevel() {
+		return updatedAuthLevel;
+	}
+}

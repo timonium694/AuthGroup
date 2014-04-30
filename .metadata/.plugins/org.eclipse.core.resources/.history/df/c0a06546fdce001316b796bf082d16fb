@@ -1,0 +1,110 @@
+package edu.neumont.csc380.auth.client;
+
+
+import java.awt.List;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+
+import javax.ws.rs.MessageProcessingException;
+import javax.ws.rs.core.Response;
+
+import org.apache.cxf.jaxrs.client.JAXRSClientFactory;
+import org.apache.cxf.jaxrs.provider.json.JSONProvider;
+
+import edu.neumont.csc380.auth.Authorization.Encryptor;
+import edu.neumont.csc380.auth.interfaces.IAuthService;
+import edu.neumont.csc380.exceptions.InvalidTokenException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
+import edu.neumont.csc380.hello.service.AuthCredentialsV1;
+import edu.neumont.csc380.hello.service.AuthTokenV1;
+import edu.neumont.csc380.hello.service.AuthUser;
+
+
+public class AuthClientImpl{
+	private final IAuthService proxy = JAXRSClientFactory.create ( "http://localhost:8080/hellorest-server/rest", IAuthService.class,Collections.singletonList(new JSONProvider<Object>()));
+	
+	public AuthUser createUser(AuthCredentialsV1 streetCred) throws InvalidTokenException, UserDoesNotExistException
+	{
+		AuthUser authUser = null;
+		Response r = proxy.createUser(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser authenticateUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		Response r = proxy.authorizeUser(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser deleteUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		Response r = proxy.deleteUser(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+	
+	public AuthUser updateUser(AuthCredentialsV1 streetCred)
+	{
+		AuthUser authUser = null;
+		Response r = proxy.updateUserPassword(streetCred);
+		System.out.println(r);
+		System.out.println(r.getStatus());
+		System.out.println(r.readEntity(AuthTokenV1.class).getToken());
+		Encryptor encryptor = new Encryptor();
+		try {
+			authUser = encryptor.DecryptCredentials(r.readEntity(AuthTokenV1.class));
+			System.out.println(authUser.getAuthorityLevel());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+			return authUser;
+		}
+	}
+}
