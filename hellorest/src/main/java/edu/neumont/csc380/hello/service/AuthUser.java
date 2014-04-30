@@ -39,6 +39,10 @@ public class AuthUser {
 	public String getUsername() {
 		return username;
 	}
+	public boolean equals(Object o)
+	{
+		return ((AuthUser)o).getUsername().equals(this.getUsername());
+	}
 	
 	public String toString()
 	{
