@@ -1,0 +1,8 @@
+package edu.neumont.csc380.auth.Test;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Test {
+	String what = "what";
+}

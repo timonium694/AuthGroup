@@ -3,59 +3,43 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class UpdateUserCredentialsV1 {
-	private String userName;
-	private String oldPassword;
-	private String newPassword;
-	private AuthorityLevel updatedAuthLevel;
+	private String userName, newPassword, oldPassword;
+	private AuthorityLevel authority;
 	
 	public UpdateUserCredentialsV1()
 	{
 		
 	}
 	
-	public UpdateUserCredentialsV1(String userName,String newPassword,String oldPassword,AuthorityLevel updatedAuthLevel)
+	public UpdateUserCredentialsV1(String userName,String newPassword,String oldPassword,AuthorityLevel authority)
 	{
 		this.userName = userName;
 		this.newPassword = newPassword;
 		this.oldPassword = oldPassword;
-		this.updatedAuthLevel = updatedAuthLevel;
+		this.authority = authority;
 	}
-
 	public String getUserName() {
 		return userName;
 	}
-	
-	public AuthorityLevel getUpdatedAuthLevel() {
-		return updatedAuthLevel;
-	}
-
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-
-	public void setUpdatedAuthLevel(AuthorityLevel updatedAuthLevel) {
-		this.updatedAuthLevel = updatedAuthLevel;
-	}
-	
-
-	public String getOldPassword() {
-		return oldPassword;
-	}
-
-	public void setOldPassword(String oldPassword) {
-		this.oldPassword = oldPassword;
-	}
-
 	public String getNewPassword() {
 		return newPassword;
 	}
-
 	public void setNewPassword(String newPassword) {
 		this.newPassword = newPassword;
 	}
-
-	public String toString()
-	{
-		return " Username: " + this.userName;
+	public String getOldPassword() {
+		return oldPassword;
+	}
+	public void setOldPassword(String oldPassword) {
+		this.oldPassword = oldPassword;
+	}
+	public AuthorityLevel getAuthority() {
+		return authority;
+	}
+	public void setAuthority(AuthorityLevel authority) {
+		this.authority = authority;
 	}
 }

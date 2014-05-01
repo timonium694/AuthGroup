@@ -1,0 +1,18 @@
+package edu.neumont.csc380.auth.Authorization;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.cxf.jaxrs.provider.json.JSONProvider;
+
+public class MyJSONProvider extends JSONProvider<Object>{
+	public MyJSONProvider() {
+		super();
+		this.setIgnoreNamespaces(true);
+		List<String> types = new ArrayList<String>();
+		types.add("application/json");
+		types.add("application/*+json");
+		this.setProduceMediaTypes(types);
+		this.setConsumeMediaTypes(types);
+	}
+}

@@ -2,7 +2,7 @@ package edu.neumont.csc380.hello.service;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name = "authTokenV1")
+@XmlRootElement
 public class AuthTokenV1 
 {
 	private String token;
@@ -57,6 +57,6 @@ public class AuthTokenV1
 	}
 	public String toString()
 	{
-		return "Token: " + this.token + " Expiry: " + expiryMinutes + " Message: " + this.message;
+		return "{authTokenV1{token: " + this.token + " expiryMinutes: " + expiryMinutes + " message: " + this.message+"}}";
 	}
 }

@@ -1,0 +1,49 @@
+package edu.neumont.csc380.auth.Utility;
+
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.Type;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.MultivaluedMap;
+import javax.ws.rs.ext.MessageBodyReader;
+import javax.ws.rs.ext.Provider;
+
+import com.sun.xml.bind.v2.schemagen.xmlschema.Annotation;
+
+@Consumes("application/octet-stream")
+@Provider
+public class MessageBodyReaderWriter implements MessageBodyReader<InputStream> {
+	 
+	     
+		public boolean isReadable(Class<?> type, Type genericType,
+			java.lang.annotation.Annotation[] annotations,
+			MediaType mediaType) {
+		return InputStream.class.isAssignableFrom(type);
+	    }
+	 
+	    public InputStream readFrom(Class<InputStream> clazz, Type t, Annotation[] a, MediaType mt,
+	                         MultivaluedMap<String, String> headers, InputStream is)
+	        throws IOException {
+	        return new FilterInputStream(is) {
+	             @Override
+	             public int read(byte[] b) throws IOException {
+					return 0;
+	                 // filter out some bytes
+	             }             
+	        };
+	    }
+
+		public InputStream readFrom(Class<InputStream> type, Type genericType,
+				java.lang.annotation.Annotation[] annotations,
+				MediaType mediaType,
+				MultivaluedMap<String, String> httpHeaders,
+				InputStream entityStream) throws IOException,
+				WebApplicationException {
+			// TODO Auto-generated method stub
+			return null;
+		}
+}

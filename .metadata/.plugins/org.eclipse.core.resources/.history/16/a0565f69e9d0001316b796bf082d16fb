@@ -1,0 +1,5 @@
+package edu.neumont.csc380.auth.util;
+
+public class XstreamJsonProvider {
+
+}

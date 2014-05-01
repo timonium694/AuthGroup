@@ -7,13 +7,19 @@
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
        http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-
+       
     <import resource="classpath:META-INF/cxf/cxf.xml"/>
     <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
 
     <context:component-scan base-package="edu.neumont.csc380"/>
-	
+
 	<bean id="jsonProvider" class="org.apache.cxf.jaxrs.provider.json.JSONProvider">
+		<property name = "produceMediaTypes">
+			<list>
+				<value>application/json</value>
+				<value>application/vnd.neumont.auth.edu-v1+json</value>
+			</list>
+		</property>
 		<property name="ignoreNamespaces" value="true"></property>
 	</bean>
 	
@@ -26,4 +32,5 @@
 	   	  <bean class="edu.neumont.csc380.exceptions.CustomExceptionMapper"/>
 	   </jaxrs:providers>
 	</jaxrs:server>
+	
 </beans>

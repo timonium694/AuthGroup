@@ -54,6 +54,10 @@ public class User implements Serializable {
 	public void setAuthLevel(AuthorityLevel authLevel) {
 		this.authLevel = authLevel;
 	}
+	public boolean equals(Object o)
+	{
+		return ((User)o).getUsername().equals(this.getUsername());
+	}
 	
 	public String toString()
 	{

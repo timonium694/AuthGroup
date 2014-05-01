@@ -1,0 +1,7 @@
+package edu.neumont.csc380.auth.Authorization;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public enum AuthorityLevel {
+	Admin,User,NotAUser;
+}

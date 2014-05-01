@@ -13,7 +13,7 @@ public class CustomExceptionMapper implements ExceptionMapper<Throwable> {
 	HashMap<Class<?>, Status> responseMap = new HashMap<Class<?>, Status>();
 	
 	public CustomExceptionMapper() {
-		responseMap.put(InvalidPasswordException.class, Status.EXPECTATION_FAILED);
+		responseMap.put(InvalidPasswordException.class, Status.BAD_REQUEST);
 		responseMap.put(InvalidServerCredentialsException.class, Status.PRECONDITION_FAILED);
 		responseMap.put(InvalidServerContentTypeException.class, Status.BAD_REQUEST);
 		responseMap.put(UserAlreadyExistsException.class, Status.CONFLICT);

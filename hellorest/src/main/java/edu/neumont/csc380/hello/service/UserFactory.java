@@ -1,97 +1,86 @@
 package edu.neumont.csc380.hello.service;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
 import edu.neumont.csc380.exceptions.InvalidPasswordException;
 import edu.neumont.csc380.exceptions.UserAlreadyExistsException;
+import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 
 public class UserFactory {
 
 	private static ArrayList<User> users = new ArrayList<User>();
+	private static TreeMap<String, User> userMap = new TreeMap<String, User>();
 	private static int currentId = 0;
 	
 	public ArrayList<User> getUsers()
 	{
-		return this.users;
+		return UserFactory.users;
 	}
-	public User updateUserPass(String userName, String oldPass, String newPass) 
+	
+	public User updateUser(String userName, String oldPass, String newPass,AuthorityLevel authority) throws UserDoesNotExistException 
 	{
-		User updatedUser = null;
-		for(User u : this.users)
+		User updatedUser = userMap.get(userName);
+		
+		if(updatedUser!=null)
 		{
-			if(u.getUsername().equals(userName))
+			if(!updatedUser.getPassword().equals(oldPass))
 			{
-				if(!u.getPassword().equals(oldPass))
-				{
-					throw new InvalidPasswordException();
-				}
-				u.setPassword(newPass);
-				updatedUser = u;
-				break;
+				throw new InvalidPasswordException();
 			}
+			updatedUser.setAuthLevel(authority);
+			updatedUser.setPassword(newPass);
+		}
+		else 
+		{	
+			throw new UserDoesNotExistException();
 		}
 		
 		return updatedUser;
 	}
+	
 	public Boolean createNewUser(User u)
 	{
 		Boolean created = false;
-		u.setId(this.currentId++);
-		for(User user : users)
-		{
-			if(user.getUsername().equals(u.getUsername()))
-			{
-				throw new UserAlreadyExistsException();
-			}
-		}
-		this.users.add(u);
+		u.setId(UserFactory.currentId++);
+		Iterator it = userMap.entrySet().iterator();
+	    while (it.hasNext()) {
+	        Map.Entry pairs = (Map.Entry)it.next();
+	        User user = (User)pairs.getValue();
+	        if(user.getUsername().equals(u.getUsername()))
+	        {
+	        	throw new UserAlreadyExistsException();
+	        }
+	    }
+	    UserFactory.userMap.put(u.getUsername(), u);
 		return  created;
 	}
-	public AuthorityLevel getAuthenticationLevel(int id)
+	public AuthorityLevel getAuthenticationLevel(String username)
 	{
-		AuthorityLevel output = null;
-
-
-		for(User u : this.users)
-		{
-			if(u.getId()==id)
-			{
-				output = u.getAuthLevel();
-				break;
-			}
-		}
-		
-		
-		 return output;
+		User u = UserFactory.userMap.get(username);
+		return u.getAuthLevel();
 	}
-	public User retrieveUser(String userName,String password)
+	public User retrieveUser(String userName,String password) throws UserDoesNotExistException
 	{
-		User user = null;
-		for(User u : this.users)
+		User user = UserFactory.userMap.get(userName);
+		
+		if(user!=null)
 		{
-			if(u.getUsername().equals(userName))
+			if(!user.getPassword().equals(password))
 			{
-				if(u.getPassword().equals(password))
-				{
-					user=u;
-				}
-				break;
+				throw new InvalidPasswordException();
 			}
+			
 		}
+		else throw new UserDoesNotExistException();
 		return user;
 	}
 	public Boolean deleteUser(String userName)
 	{
-		Boolean deleted = false;
-
-		for(int i = 0; i<users.size();i++)
-		{
-			if(users.get(i).getUsername().equals(userName))
-			{
-				users.remove(i);
-				deleted = true;
-			}
-		}
-		return deleted;
+		return UserFactory.userMap.remove(userName) != null;
 	}
 }
