@@ -36,7 +36,6 @@ INDEX VERSION 1.126+C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\.meta
 3831754045.index
 2963536845.index
 1834334183.index
-3405804595.index
 2064319352.index
 475176721.index
 474290983.index

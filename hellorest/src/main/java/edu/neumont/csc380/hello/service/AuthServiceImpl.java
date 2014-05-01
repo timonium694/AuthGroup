@@ -1,14 +1,17 @@
 package edu.neumont.csc380.hello.service;
 import java.io.IOException;
 
+import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 
 import org.springframework.stereotype.Service;
 
-import edu.neumont.csc380.auth.Authorization.AuthorityLevel;
+import edu.neumont.csc380.auth.Authorization.AuthCredentialsV1;
+import edu.neumont.csc380.auth.Authorization.CreateUserCredentialsV1;
 import edu.neumont.csc380.auth.Authorization.Encryptor;
+import edu.neumont.csc380.auth.Authorization.UpdateUserCredentialsV1;
 import edu.neumont.csc380.auth.interfaces.IAuthService;
-import edu.neumont.csc380.exceptions.InvalidPasswordException;
 import edu.neumont.csc380.exceptions.UserDoesNotExistException;
 
 @Service("authService")
@@ -16,19 +19,19 @@ public class AuthServiceImpl implements IAuthService {
 private UserFactory userFactory = new UserFactory();
 private Encryptor encryptor = new Encryptor();
 	
-	public Response deleteUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException {
-		if(!userFactory.deleteUser(streetCred.getUserName()))
+	public Response deleteUser(String username) throws UserDoesNotExistException {
+		if(!userFactory.deleteUser(username))
 		{
 			throw new UserDoesNotExistException();
 		}
-		return Response.status(204).entity("User " + streetCred.getUserName() + " Deleted").build();
+		return Response.noContent().build();
 	}
 
-	public Response createUser(AuthCredentialsV1 streetCred)
+	public Response createUser(CreateUserCredentialsV1 streetCred)
 	{
 		Response response = null;
 			User u = new User();
-			u.setAuthLevel(streetCred.getUpdatedAuthLevel());
+			u.setAuthLevel(streetCred.getAuthority());
 			u.setPassword(streetCred.getPassword());
 			u.setUsername(streetCred.getUserName());
 			userFactory.createNewUser(u);
@@ -42,15 +45,12 @@ private Encryptor encryptor = new Encryptor();
 				response = Response.status(500).entity("There was a problem with the encryption of the user").build();
 				e.printStackTrace();
 			}
-			finally
-			{
-				return response;
-			}
+			return response;
 	}
 
-	public Response updateUserPassword(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
+	public Response updateUserPassword(UpdateUserCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
 	{
-		User user = userFactory.updateUserPass(streetCred.getUserName(), streetCred.getPassword(),streetCred.getExtraData());
+		User user = userFactory.updateUserPass(streetCred.getUserName(), streetCred.getOldPassword(),streetCred.getNewPassword());
 		if(user == null)
 		{
 			throw new UserDoesNotExistException();
@@ -62,10 +62,6 @@ private Encryptor encryptor = new Encryptor();
 
 	public Response authorizeUser(AuthCredentialsV1 streetCred) throws UserDoesNotExistException, IOException
 	{
-		if(!userFactory.deleteUser(streetCred.getUserName()))
-		{
-			throw new UserDoesNotExistException();
-		}
 		User user = userFactory.retrieveUser(streetCred.getUserName(),streetCred.getPassword());
 		AuthUser authUser = new AuthUser(user.getId(), user.getAuthLevel(), user.getUsername(), 20);
 		return Response.ok(encryptor.encryptUser(authUser, "User " + streetCred.getUserName() + " has updated thier password.")).build();

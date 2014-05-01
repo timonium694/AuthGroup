@@ -1,0 +1,30 @@
+package edu.neumont.csc380.auth.Authorization;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class DeleteUserCredentialsV1 {
+	private String userName;
+	
+	public DeleteUserCredentialsV1()
+	{
+		
+	}
+	
+	public DeleteUserCredentialsV1(String userName)
+	{
+		this.userName = userName;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	
+	public String toString()
+	{
+		return " Username: " + this.userName;
+	}
+}

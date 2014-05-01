@@ -9,10 +9,10 @@ public class ClientMain {
 	{
 		AuthClientImpl client = new AuthClientImpl();
 		try {
-			client.createUser("Tim", "isCanada", "Me",AuthorityLevel.User);
-			client.updateUser("Tim", "isCanada", "Me","BOOM");
-			client.authenticateUser("Tim", "BOOM", "Me");
-			client.deleteUser("Tim", "isCanada", "Me");
+			client.createUser("Tim", "isCanada",AuthorityLevel.User);
+			client.updateUser("Tim","BOOM","isCanada",AuthorityLevel.Admin);
+			client.authenticateUser("Tim", "BOOM");
+			client.deleteUser("Tim");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

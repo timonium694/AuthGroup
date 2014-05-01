@@ -7234,3 +7234,371 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact junit:junit:j
 2014-04-29 10:46:05,075 [Worker-1254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
 2014-04-29 10:46:05,079 [Worker-1254] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2014-04-29 10:46:05,091 [Worker-1254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:10:14,473 [Worker-1366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:10:14,483 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:10:14,494 [Worker-1366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:10:14,506 [Worker-1366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:11:31,506 [Worker-1372] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:11:31,513 [Worker-1372] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:11:31,517 [Worker-1372] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:11:31,528 [Worker-1372] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:13:09,613 [Worker-1373] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:13:09,624 [Worker-1373] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:13:09,634 [Worker-1373] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:13:09,646 [Worker-1373] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:16:51,945 [Worker-1378] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:16:51,951 [Worker-1378] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:16:51,955 [Worker-1378] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:16:51,969 [Worker-1378] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:24:57,517 [Worker-1382] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:24:57,529 [Worker-1382] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:24:57,538 [Worker-1382] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:24:57,550 [Worker-1382] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:26:55,453 [Worker-1377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:26:55,461 [Worker-1377] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:26:55,465 [Worker-1377] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:26:55,476 [Worker-1377] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:29:47,907 [Worker-1382] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:29:47,918 [Worker-1382] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:29:47,929 [Worker-1382] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:29:47,941 [Worker-1382] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:32:07,051 [Worker-1390] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:32:07,058 [Worker-1390] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:32:07,064 [Worker-1390] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:32:07,075 [Worker-1390] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:32:30,274 [Worker-1368] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:32:30,285 [Worker-1368] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:32:30,294 [Worker-1368] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:32:30,305 [Worker-1368] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:34:11,326 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:34:11,333 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:34:11,337 [Worker-1383] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:34:11,348 [Worker-1383] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:35:00,024 [Worker-1386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:35:00,036 [Worker-1386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:35:00,046 [Worker-1386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:35:00,059 [Worker-1386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:36:01,730 [Worker-1394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:36:01,736 [Worker-1394] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:36:01,740 [Worker-1394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:36:01,752 [Worker-1394] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:39:30,102 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:39:30,114 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:39:30,124 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:39:30,137 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:39:49,124 [Worker-1386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:39:49,131 [Worker-1386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:39:49,135 [Worker-1386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:39:49,148 [Worker-1386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:40:00,338 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:40:00,351 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:40:00,360 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:40:00,372 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:43:50,019 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:43:50,026 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:43:50,030 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:43:50,041 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:44:31,260 [Worker-1402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:44:31,271 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:44:31,279 [Worker-1402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:44:31,290 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:44:49,439 [Worker-1402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:44:49,447 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:44:49,450 [Worker-1402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:44:49,463 [Worker-1402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:45:38,305 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:45:38,317 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:45:38,326 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:45:38,338 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:46:02,729 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:46:02,736 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:46:02,741 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:46:02,753 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:46:13,920 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:46:13,931 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:46:13,942 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:46:13,954 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:49:41,272 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:49:41,279 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:49:41,282 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:49:41,293 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:52:51,957 [Worker-1412] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:52:51,969 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:52:51,981 [Worker-1412] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:52:51,996 [Worker-1412] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:54:35,231 [Worker-1400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:54:35,238 [Worker-1400] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:54:35,241 [Worker-1400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:54:35,253 [Worker-1400] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:55:36,737 [Worker-1411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:55:36,749 [Worker-1411] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:55:36,758 [Worker-1411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:55:36,770 [Worker-1411] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:56:34,601 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:56:34,608 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:56:34,612 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:56:34,624 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:56:48,890 [Worker-1415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:56:48,904 [Worker-1415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:56:48,915 [Worker-1415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:56:48,929 [Worker-1415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:57:26,913 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:57:26,920 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:57:26,924 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:57:26,939 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:58:26,364 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:58:26,376 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:58:26,384 [Worker-1398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:58:26,397 [Worker-1398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:59:36,642 [Worker-1419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:59:36,648 [Worker-1419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:59:36,653 [Worker-1419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:59:36,664 [Worker-1419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-29 23:59:52,473 [Worker-1421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:59:52,484 [Worker-1421] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-29 23:59:52,494 [Worker-1421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-29 23:59:52,505 [Worker-1421] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 00:04:09,591 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 00:04:09,598 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 00:04:09,602 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 00:04:09,614 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:44:33,149 [Worker-1426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:44:33,165 [Worker-1426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:44:33,174 [Worker-1426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:44:33,185 [Worker-1426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:45:08,062 [Worker-1441] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:45:08,071 [Worker-1441] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:45:08,076 [Worker-1441] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:45:08,090 [Worker-1441] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:45:20,456 [Worker-1439] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:45:20,470 [Worker-1439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:45:20,480 [Worker-1439] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:45:20,494 [Worker-1439] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:46:49,164 [Worker-1440] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:46:49,166 [Worker-1440] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:46:49,167 [Worker-1440] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:46:49,171 [Worker-1440] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:49:18,952 [Worker-1444] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:49:18,957 [Worker-1444] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:49:18,960 [Worker-1444] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:49:18,964 [Worker-1444] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:49:25,655 [Worker-1446] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:49:25,657 [Worker-1446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:49:25,659 [Worker-1446] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:49:25,664 [Worker-1446] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:50:48,188 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:50:48,193 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:50:48,196 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:50:48,200 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:52:01,977 [Worker-1424] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:52:01,979 [Worker-1424] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:52:01,980 [Worker-1424] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:52:01,984 [Worker-1424] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:54:00,411 [Worker-1450] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:54:00,415 [Worker-1450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:54:00,418 [Worker-1450] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:54:00,421 [Worker-1450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:54:48,493 [Worker-1451] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:54:48,496 [Worker-1451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:54:48,497 [Worker-1451] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:54:48,502 [Worker-1451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:55:11,212 [Worker-1449] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:55:11,216 [Worker-1449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:55:11,219 [Worker-1449] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:55:11,223 [Worker-1449] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:56:23,217 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:56:23,219 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:56:23,220 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:56:23,224 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:57:25,682 [Worker-1450] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:57:25,687 [Worker-1450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:57:25,691 [Worker-1450] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:57:25,698 [Worker-1450] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:58:35,951 [Worker-1454] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:58:35,954 [Worker-1454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:58:35,955 [Worker-1454] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:58:35,959 [Worker-1454] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 09:58:44,736 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:58:44,741 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 09:58:44,744 [Worker-1435] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 09:58:44,748 [Worker-1435] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:00:35,662 [Worker-1424] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:00:35,664 [Worker-1424] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:00:35,665 [Worker-1424] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:00:35,669 [Worker-1424] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:01:07,897 [Worker-1459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:01:07,901 [Worker-1459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:01:07,904 [Worker-1459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:01:07,907 [Worker-1459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:08:55,722 [Worker-1457] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:08:55,725 [Worker-1457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:08:55,727 [Worker-1457] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:08:55,731 [Worker-1457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:09:55,224 [Worker-1463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:09:55,229 [Worker-1463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:09:55,232 [Worker-1463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:09:55,236 [Worker-1463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:10:17,309 [Worker-1462] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:10:17,312 [Worker-1462] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:10:17,314 [Worker-1462] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:10:17,319 [Worker-1462] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:14:03,390 [Worker-1458] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:14:03,395 [Worker-1458] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:14:03,398 [Worker-1458] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:14:03,402 [Worker-1458] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:14:51,955 [Worker-1463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:14:51,957 [Worker-1463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:14:51,959 [Worker-1463] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:14:51,962 [Worker-1463] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:22:38,995 [Worker-1470] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:22:38,998 [Worker-1470] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:22:39,001 [Worker-1470] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:22:39,004 [Worker-1470] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:28:33,547 [Worker-1469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:28:33,550 [Worker-1469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:28:33,551 [Worker-1469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:28:33,556 [Worker-1469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:32:48,836 [Worker-1457] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:32:48,846 [Worker-1457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:32:48,852 [Worker-1457] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:32:48,856 [Worker-1457] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:33:22,214 [Worker-1477] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:33:22,216 [Worker-1477] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:33:22,217 [Worker-1477] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:33:22,221 [Worker-1477] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:37:34,799 [Worker-1482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:37:34,803 [Worker-1482] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:37:34,807 [Worker-1482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:37:34,811 [Worker-1482] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:38:39,926 [Worker-1482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:38:39,928 [Worker-1482] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:38:39,930 [Worker-1482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:38:39,934 [Worker-1482] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:38:53,544 [Worker-1486] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:38:53,548 [Worker-1486] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:38:53,552 [Worker-1486] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:38:53,555 [Worker-1486] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:43:51,661 [Worker-1490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:43:51,664 [Worker-1490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:43:51,665 [Worker-1490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:43:51,670 [Worker-1490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 10:57:51,879 [Worker-1508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:57:51,883 [Worker-1508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 10:57:51,886 [Worker-1508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 10:57:51,889 [Worker-1508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:04:14,862 [Worker-1495] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:04:14,870 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:04:14,874 [Worker-1495] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:04:14,888 [Worker-1495] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:29:47,522 [Worker-1522] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:29:47,534 [Worker-1522] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:29:47,543 [Worker-1522] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:29:47,554 [Worker-1522] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:34:11,556 [Worker-1521] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:34:11,564 [Worker-1521] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:34:11,568 [Worker-1521] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:34:11,580 [Worker-1521] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:40:31,882 [Worker-1539] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:40:31,895 [Worker-1539] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:40:31,906 [Worker-1539] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:40:31,921 [Worker-1539] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:40:59,678 [Worker-1511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:40:59,685 [Worker-1511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:40:59,688 [Worker-1511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:40:59,699 [Worker-1511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:56:51,107 [Worker-1548] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:56:51,119 [Worker-1548] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:56:51,129 [Worker-1548] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:56:51,140 [Worker-1548] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:57:35,736 [Worker-1548] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:57:35,743 [Worker-1548] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:57:35,747 [Worker-1548] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:57:35,759 [Worker-1548] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 11:58:17,302 [Worker-1550] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:58:17,315 [Worker-1550] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 11:58:17,325 [Worker-1550] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 11:58:17,337 [Worker-1550] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:30:59,628 [Worker-1553] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:30:59,637 [Worker-1553] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:30:59,641 [Worker-1553] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:30:59,656 [Worker-1553] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:31:51,556 [Worker-1558] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:31:51,567 [Worker-1558] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:31:51,575 [Worker-1558] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:31:51,587 [Worker-1558] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:33:37,754 [Worker-1551] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:33:37,761 [Worker-1551] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:33:37,765 [Worker-1551] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:33:37,777 [Worker-1551] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:40:03,051 [Worker-1544] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:40:03,063 [Worker-1544] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:40:03,072 [Worker-1544] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:40:03,083 [Worker-1544] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:40:59,443 [Worker-1562] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:40:59,452 [Worker-1562] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:40:59,459 [Worker-1562] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:40:59,474 [Worker-1562] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 12:43:36,858 [Worker-1559] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:43:36,870 [Worker-1559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 12:43:36,879 [Worker-1559] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 12:43:36,890 [Worker-1559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:40:59,461 [Worker-1606] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:40:59,477 [Worker-1606] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:40:59,482 [Worker-1606] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:40:59,497 [Worker-1606] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:42:36,256 [Worker-1570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:42:36,273 [Worker-1570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:42:36,292 [Worker-1570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:42:36,317 [Worker-1570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:42:40,928 [Worker-1557] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:42:40,935 [Worker-1557] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:42:40,939 [Worker-1557] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:42:40,955 [Worker-1557] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:43:17,764 [Worker-1608] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:43:17,779 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:43:17,790 [Worker-1608] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:43:17,805 [Worker-1608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:48:24,556 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:48:24,563 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:48:24,568 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:48:24,582 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:50:46,981 [Worker-1570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:50:46,996 [Worker-1570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:50:47,007 [Worker-1570] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:50:47,022 [Worker-1570] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:53:34,564 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:53:34,574 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:53:34,582 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:53:34,600 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:53:40,318 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:53:40,333 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:53:40,345 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:53:40,359 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:56:03,129 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:56:03,136 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:56:03,140 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:56:03,154 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:59:01,381 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:59:01,396 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:59:01,407 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:59:01,422 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 20:59:21,713 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:59:21,722 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 20:59:21,727 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 20:59:21,743 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 21:00:34,802 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:00:34,816 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 21:00:34,826 [Worker-1603] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:00:34,840 [Worker-1603] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 21:01:33,456 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:01:33,463 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 21:01:33,467 [Worker-1565] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:01:33,480 [Worker-1565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 21:03:56,100 [Worker-1599] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:03:56,112 [Worker-1599] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 21:03:56,122 [Worker-1599] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:03:56,135 [Worker-1599] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
+2014-04-30 21:04:30,040 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:04:30,048 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\main\resources
+2014-04-30 21:04:30,053 [Worker-1611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-04-30 21:04:30,066 [Worker-1611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rmiller\Desktop\Quarter8\Java3\Auth\AuthGroup\hellorest\src\test\resources
